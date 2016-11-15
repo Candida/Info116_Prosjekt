@@ -7,9 +7,9 @@
     }, {
       "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AlkoholiskBrygg"
     }, {
-      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Drue"
-    }, {
       "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Karakteristikk"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råstoff"
     }, {
       "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råvare"
     } ]
@@ -33,6 +33,18 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AleØl"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#FatØl"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LagerØl"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
       "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Alkohol"
     }, {
       "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Avling"
@@ -51,7 +63,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid26",
+  "@id" : "_:genid30",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -75,7 +87,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid36",
+  "@id" : "_:genid40",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -103,7 +115,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid48",
+  "@id" : "_:genid52",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -121,7 +133,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid55",
+  "@id" : "_:genid59",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -137,6 +149,20 @@
     } ]
   } ]
 }, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HevingsMiddel"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Korn"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Plante"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VinDrue"
+    } ]
+  } ]
+}, {
   "@id" : "_:genid7",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
@@ -148,6 +174,38 @@
       "@id" : "http://aims.fao.org/aos/geopolitical.owl#other"
     }, {
       "@id" : "http://aims.fao.org/aos/geopolitical.owl#self_governing"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HveteØl"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PaleAleØl"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PorterØl"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ScotchAleØl"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#StoutØl"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LettØl"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LysLagerØl"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MunichØl"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MørkLagerØl"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PilsnerØl"
     } ]
   } ]
 }, {
@@ -229,10 +287,16 @@
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A ontology listing a selection of products that Vinmonopolet offers."
+    "@value" : "A ontology listing a selection of products that Vinmonopolet offers.\nUses FAO geopolitical ontology for list of countries."
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://aims.fao.org/aos/geopolitical.owl"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AleØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Øl"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Alkohol",
@@ -301,6 +365,9 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Vin"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ByggMalt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt" ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Cabernet",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -335,13 +402,13 @@
     "@id" : "http://dbpedia.org/resource/Dregs_of_wine"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFrisk"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFylde"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harSødme" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Halvtørr"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#halvtørr"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedDrue" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#CabernetSauvignonDrue"
@@ -366,8 +433,11 @@
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "13.5"
   } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#France"
+  } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFrisk"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#myeFylde"
@@ -390,6 +460,10 @@
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#årGang" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "2010"
+  } ],
+  "https://schema.org/price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "675.00"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Ch._d'Yquem",
@@ -398,11 +472,14 @@
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "13.5"
   } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#France"
+  } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFarge" : [ {
     "@id" : "http://dbpedia.org/resource/Naples_yellow"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFriskhet"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFylde"
@@ -425,6 +502,10 @@
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#årGang" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "2008"
+  } ],
+  "https://schema.org/price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3945.00"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Chablis",
@@ -469,6 +550,45 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RødVin"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ColoradoAppiaWitbier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HveteØl" ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.5"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#beskrivelseLukt" : [ {
+    "@value" : "Hint av honning"
+  }, {
+    "@value" : "Kremet og søt. Frisk"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#Brazil"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFarge" : [ {
+    "@id" : "http://dbpedia.org/resource/Shades_of_yellow__Goldenrod__1"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFrisk"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsLettFylde"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMed" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Humle"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedMalt" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ByggMalt"
+  }, {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HveteMalt"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#passerTilRåvare" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Ost"
+  } ],
+  "https://schema.org/price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "117.80"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Dessert",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Rett" ]
 }, {
@@ -490,13 +610,49 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Dessert"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Drue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#EfesPilsner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PilsnerØl" ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#Germany"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFrisk"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsLettFylde"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMed" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Humle"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedMalt" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ByggMalt"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#passerTilRåvare" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Aperitiff"
+  }, {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fisk"
+  }, {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tamfugl"
+  } ],
+  "https://schema.org/price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "32.60"
+  } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Farge",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Karakteristikk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#FatØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Øl"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fisk",
@@ -557,8 +713,17 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fisk"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Gjær",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HevingsMiddel" ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Grønnsak",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Avling" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GuinnessØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#StoutØl"
+  } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GulGrønnNyanser",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -572,8 +737,68 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Farge"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Halvtørr",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ]
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HaandbryggerietBelgiskPaleAle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PaleAleØl" ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "6.5"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#beskrivelseLukt" : [ {
+    "@value" : "Sval og fruktig aroma preget av gyllent malt, humle, sitrus og litt tørket frukt."
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#beskrivelseSmak" : [ {
+    "@value" : "Fruktig, frisk og fint balansert. Lang, humlebitter ettersmak."
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#Norway"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFarge" : [ {
+    "@id" : "http://dbpedia.org/resource/Amber_(color)"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFriskhet"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFylde"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harSødme" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tørr"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMed" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Humle"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedMalt" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ByggMalt"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#passerTilRåvare" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fisk"
+  }, {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Svin"
+  }, {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tamfugl"
+  } ],
+  "https://schema.org/price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "72.90"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HevingsMiddel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råstoff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Humle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Plante" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HveteMalt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HveteØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AleØl"
+  } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HvitNyanser",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -593,8 +818,11 @@
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "14.8"
   } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#United_States_of_America"
+  } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFriskhet"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#myeFylde"
@@ -615,6 +843,10 @@
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#årGang" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "2011"
+  } ],
+  "https://schema.org/price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "699.00"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Kaker",
@@ -629,14 +861,47 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råvare"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Korn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råstoff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LagerØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Øl"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Lam",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Kjøtt" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sau"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LettØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LagerØl"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LysLagerØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LagerØl"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MalbecDrue",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VinDrue" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Generell beskrivelse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Korn"
+  } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Medoc",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -657,7 +922,7 @@
     "@id" : "http://dbpedia.org/resource/Peach_(color)"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFrisk"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFylde"
@@ -709,6 +974,12 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HvitVin"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MunichØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LagerØl"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Muscadet",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -721,8 +992,23 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Vin"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MørkLagerØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LagerØl"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Ost",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MelkeProdukt" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PaleAleØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AleØl"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PaleMalt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PerlendeVin",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -735,6 +1021,15 @@
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PetiteVerdotDrue",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VinDrue" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PilsnerMalt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PilsnerØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LagerØl"
+  } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PinotBlanc",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -754,14 +1049,29 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RødVin"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Plante",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råstoff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PorterØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AleØl"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#QuerciabellaChiantiClassico",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Chianti" ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "13.5"
   } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#Italy"
+  } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFrisk"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#myeFylde"
@@ -778,6 +1088,10 @@
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#årGang" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "2008"
+  } ],
+  "https://schema.org/price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "2212.40"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#QuintadeLaRosaVintagePort",
@@ -790,13 +1104,13 @@
     "@id" : "http://dbpedia.org/resource/Burgundy_(color)"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFrisk"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#myeFylde"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harSødme" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Halvtørr"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#halvtørr"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedDrue" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#TintaRorizDrue"
@@ -844,6 +1158,9 @@
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "12.5"
   } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#beskrivelseSmak" : [ {
+    "@value" : ""
+  } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
     "@id" : "http://aims.fao.org/aos/geopolitical.owl#France"
   } ],
@@ -851,10 +1168,10 @@
     "@id" : "http://dbpedia.org/resource/Shades_of_yellow__Goldenrod__1"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFriskhet"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFylde"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFylde"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harSødme" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tørr"
@@ -872,6 +1189,10 @@
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#årGang" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "2014"
+  } ],
+  "https://schema.org/price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "209.90"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RosaNyanser",
@@ -885,6 +1206,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Vin"
   } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råstoff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råvare",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
@@ -906,6 +1230,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Vin"
   } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RøykMalt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sack",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -933,6 +1260,12 @@
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SauvignonBlancDrue",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VinDrue" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ScotchAleØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AleØl"
+  } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SemillonDrue",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VinDrue" ]
@@ -964,6 +1297,39 @@
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#St.LaurentDrue",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VinDrue" ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#St.Peter'sSuffolkGold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PaleAleØl" ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.9"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#beskrivelseLukt" : [ {
+    "@value" : "Aromatisk. Humle og sitrus."
+  }, {
+    "@value" : "Fyldig og rund med begagelig bitterhet."
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#United_Kingdom_of_Great_Britain_and_Northern_Ireland__the"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFrisk"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFylde"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harSødme" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tørr"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMed" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Humle"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedMalt" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#passerTilRåvare" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Aperitiff"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SterkVin",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -975,6 +1341,15 @@
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Storfe",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Kjøtt" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#StoutØl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AleØl"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SvartMalt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Svin",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Kjøtt" ]
@@ -1006,9 +1381,6 @@
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tørr",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ]
 }, {
-  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VeldigSøt",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ]
-}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Verdicchio",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -1033,7 +1405,7 @@
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VinDrue",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Drue"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råstoff"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Vouvray",
@@ -1055,7 +1427,7 @@
     "@id" : "http://dbpedia.org/resource/Chartreuse_(color)"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFriskhet"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFylde"
@@ -1076,6 +1448,10 @@
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#årGang" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "2015"
+  } ],
+  "https://schema.org/price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "179.90"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#WongravenChampagneBrut",
@@ -1113,6 +1489,10 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fisk"
   }, {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Skalldyr"
+  } ],
+  "https://schema.org/price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "339.90"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Yquem",
@@ -1171,6 +1551,9 @@
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harProdusert"
   } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#halvtørr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harBitterhet",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
@@ -1265,13 +1648,31 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harKarakteristikk"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AlkoholiskBrygg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råstoff"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedDrue",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AlkoholiskBrygg"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Drue"
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råstoff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMed"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedMalt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMed"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lettFylde",
@@ -1286,10 +1687,40 @@
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#liteGarveStoff",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GarveStoff" ]
 }, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumBittert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Bitterhet" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFrisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Friskhet" ]
+}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFylde",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fylde" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumGarveStoff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GarveStoff" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsLettFriskhet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Friskhet" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsLettFylde",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fylde" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsLettGarveStoff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GarveStoff" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsLiteBittert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Bitterhet" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeBittert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Bitterhet" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFriskhet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Friskhet" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFylde",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fylde" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeGarveStoff",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GarveStoff" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#myeFylde",
@@ -1325,17 +1756,17 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiBittert",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Bitterhet" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Friskhet" ]
-}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#veldigBittert",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Bitterhet" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#veldigFrisk",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Friskhet" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#veldigSøt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#veldigTørr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Øl",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -1350,5 +1781,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ]
+}, {
+  "@id" : "https://schema.org/price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AlkoholiskBrygg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
   } ]
 } ]
