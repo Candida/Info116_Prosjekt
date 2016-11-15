@@ -7,8 +7,8 @@
 @base <http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14> .
 
 <http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14> rdf:type owl:Ontology ;
-                                                                           owl:imports <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries> ;
-                                                                           rdfs:comment "A ontology listing a selection of products that Vinmonopolet offers." .
+                                                                           owl:imports <http://aims.fao.org/aos/geopolitical.owl> ;
+                                                                           rdfs:comment "A ontology listing a selection of products that Vinmonopolet offers."^^xsd:string .
 
 #################################################################
 #    Object Properties
@@ -16,8 +16,10 @@
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI
 :erProdusertI rdf:type owl:ObjectProperty ;
+              owl:inverseOf :harProdusert ;
+              rdf:type owl:FunctionalProperty ;
               rdfs:domain :AlkoholiskBrygg ;
-              rdfs:range <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Country> .
+              rdfs:range <http://aims.fao.org/aos/geopolitical.owl#territory> .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harBitterhet
@@ -64,6 +66,12 @@
                    rdfs:subPropertyOf owl:topObjectProperty ;
                    rdfs:domain :AlkoholiskBrygg ;
                    rdfs:range :Karakteristikk .
+
+
+###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harProdusert
+:harProdusert rdf:type owl:ObjectProperty ;
+              rdfs:domain <http://aims.fao.org/aos/geopolitical.owl#territory> ;
+              rdfs:range :AlkoholiskBrygg .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harSødme
@@ -128,6 +136,12 @@
 #################################################################
 #    Classes
 #################################################################
+
+###  http://aims.fao.org/aos/geopolitical.owl#group
+<http://aims.fao.org/aos/geopolitical.owl#group> owl:disjointWith <http://aims.fao.org/aos/geopolitical.owl#territory> .
+
+
+###  http://aims.fao.org/aos/geopolitical.owl#territory
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Alkohol
 :Alkohol rdf:type owl:Class ;
@@ -271,11 +285,6 @@
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GulNyanser
 :GulNyanser rdf:type owl:Class ;
             rdfs:subClassOf :Farge .
-
-
-###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HalvTørr
-:HalvTørr rdf:type owl:Class ;
-          rdfs:subClassOf :Sødme .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HvitNyanser
@@ -431,16 +440,6 @@
        rdfs:subClassOf :Karakteristikk .
 
 
-###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Søt
-:Søt rdf:type owl:Class ;
-     rdfs:subClassOf :Sødme .
-
-
-###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tørr
-:Tørr rdf:type owl:Class ;
-      rdfs:subClassOf :Sødme .
-
-
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Verdicchio
 :Verdicchio rdf:type owl:Class ;
             rdfs:subClassOf :HvitVin .
@@ -484,6 +483,14 @@
 #################################################################
 #    Individuals
 #################################################################
+
+###  http://aims.fao.org/aos/geopolitical.owl#Mexico
+<http://aims.fao.org/aos/geopolitical.owl#Mexico> :harProdusert :DonJulioAnejo .
+
+
+###  http://aims.fao.org/aos/geopolitical.owl#Norway
+<http://aims.fao.org/aos/geopolitical.owl#Norway> :harProdusert :GildeSkreiAquavit .
+
 
 ###  http://dbpedia.org/resource/Black
 <http://dbpedia.org/resource/Black> rdf:type owl:NamedIndividual ,
@@ -591,14 +598,6 @@
                     :Alkohol .
 
 
-###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#BarsolPiscoSelectoTorontel
-:BarsolPiscoSelectoTorontel rdf:type owl:NamedIndividual ,
-                                     :BrenneVin ;
-                            :erProdusertI <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Peru> ;
-                            :passerTilRåvare :Aperitiff ;
-                            :alkoholProsent 41.3 .
-
-
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#BlaufränkischDrue
 :BlaufränkischDrue rdf:type owl:NamedIndividual ,
                             :VinDrue .
@@ -633,7 +632,6 @@
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Ch.GuiraudSauternes
 :Ch.GuiraudSauternes rdf:type owl:NamedIndividual ,
                               :Sauternes ;
-                     :erProdusertI <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#France> ;
                      :harFriskhet :semiFrisk ;
                      :harFylde :myeFylde ;
                      :harSødme :Søt ;
@@ -664,7 +662,7 @@
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#DonJulioAnejo
 :DonJulioAnejo rdf:type owl:NamedIndividual ,
                         :BrenneVin ;
-               :erProdusertI <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Mexico> ;
+               :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Mexico> ;
                :harFarge <http://dbpedia.org/resource/Amber_(color)> ;
                :passerTilRåvare :Aperitiff ,
                                 :Dessert ;
@@ -684,7 +682,7 @@
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GildeSkreiAquavit
 :GildeSkreiAquavit rdf:type owl:NamedIndividual ,
                             :BrenneVin ;
-                   :erProdusertI <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Norway> ;
+                   :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Norway> ;
                    :harFarge <http://dbpedia.org/resource/Champagne_(color)> ;
                    :passerTilRåvare :Fisk ;
                    :alkoholProsent 40 .
@@ -703,7 +701,6 @@
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#InglenookCabernetSauvignon
 :InglenookCabernetSauvignon rdf:type owl:NamedIndividual ,
                                      :CabernetSauvignon ;
-                            :erProdusertI <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#UnitedStates> ;
                             :harFriskhet :semiFrisk ;
                             :harFylde :myeFylde ;
                             :harGarveStoff :mediumGarveStoff ;
@@ -734,7 +731,7 @@
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MeinklangBurgenlandRosé
 :MeinklangBurgenlandRosé rdf:type owl:NamedIndividual ,
                                   :RoseVin ;
-                         :erProdusertI <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Austria> ;
+                         :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Austria> ;
                          :harFarge <http://dbpedia.org/resource/Peach_(color)> ;
                          :harFriskhet :semiFrisk ;
                          :harFylde :mediumFylde ;
@@ -781,7 +778,6 @@
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#QuerciabellaChiantiClassico
 :QuerciabellaChiantiClassico rdf:type owl:NamedIndividual ,
                                       :Chianti ;
-                             :erProdusertI <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Italy> ;
                              :harFriskhet :semiFrisk ;
                              :harFylde :myeFylde ;
                              :harGarveStoff :mediumGarveStoff ;
@@ -794,7 +790,6 @@
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#QuintadeLaRosaVintagePort
 :QuintadeLaRosaVintagePort rdf:type owl:NamedIndividual ,
                                     :SterkVin ;
-                           :erProdusertI <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Portugal> ;
                            :harFarge <http://dbpedia.org/resource/Burgundy_(color)> ;
                            :harFriskhet :semiFrisk ;
                            :harFylde :myeFylde ;
@@ -817,7 +812,7 @@
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RolandLavatureuxChablis
 :RolandLavatureuxChablis rdf:type owl:NamedIndividual ,
                                   :Chablis ;
-                         :erProdusertI <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#France> ;
+                         :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#France> ;
                          :harFarge <http://dbpedia.org/resource/Shades_of_yellow__Goldenrod__1> ;
                          :harFriskhet :semiFrisk ;
                          :harFylde :mediumFylde ;
@@ -928,7 +923,7 @@
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#WilliamFèvreChablis
 :WilliamFèvreChablis rdf:type owl:NamedIndividual ,
                               :Chablis ;
-                     :erProdusertI <http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#France> ;
+                     :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#France> ;
                      :harFarge <http://dbpedia.org/resource/Chartreuse_(color)> ;
                      :harFriskhet :semiFrisk ;
                      :harFylde :mediumFylde ;
@@ -939,6 +934,23 @@
                                       :Skalldyr ;
                      :alkoholProsent 12.5 ;
                      :årGang 2015 .
+
+
+###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#WongravenChampagneBrut
+:WongravenChampagneBrut rdf:type owl:NamedIndividual ,
+                                 :Champagne ;
+                        :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#France> ;
+                        :harFriskhet :veldigFrisk ;
+                        :harFylde :mediumFylde ;
+                        :harSødme :Tørr ;
+                        :lagetMedDrue :ChardonnayDrue ,
+                                      :PinotNoirDrue ;
+                        :passerTilRåvare :Aperitiff ,
+                                         :Fisk ,
+                                         :Skalldyr ;
+                        :alkoholProsent 12.5 ;
+                        :beskrivelseLukt "Frisk og ren, sitrus og kjeks, floral, mineralsk innslag." ;
+                        :beskrivelseSmak "Frisk, tørr med ren frukt og florale elementer" .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ZinfandelDrue
@@ -1032,6 +1044,34 @@
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://aims.fao.org/aos/geopolitical.owl#area>
+                :AlkoholiskBrygg
+                :Drue
+                :Karakteristikk
+                :Råvare
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://aims.fao.org/aos/geopolitical.owl#disputed>
+                <http://aims.fao.org/aos/geopolitical.owl#non_self_governing>
+                <http://aims.fao.org/aos/geopolitical.owl#other>
+                <http://aims.fao.org/aos/geopolitical.owl#self_governing>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://aims.fao.org/aos/geopolitical.owl#economic_region>
+                <http://aims.fao.org/aos/geopolitical.owl#geographical_region>
+                <http://aims.fao.org/aos/geopolitical.owl#organization>
+                <http://aims.fao.org/aos/geopolitical.owl#special_group>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
   owl:members ( :Alkohol
                 :Avling
                 :Bakst
@@ -1095,12 +1135,4 @@
 ] .
 
 
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :HalvTørr
-                :Søt
-                :Tørr
-              )
-] .
-
-
-###  Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi

@@ -3,6 +3,36 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#area"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AlkoholiskBrygg"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Drue"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Karakteristikk"
+    }, {
+      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råvare"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#economic_region"
+    }, {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#geographical_region"
+    }, {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#organization"
+    }, {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#special_group"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
       "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Alkohol"
     }, {
       "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Avling"
@@ -21,7 +51,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid10",
+  "@id" : "_:genid26",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -45,7 +75,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid20",
+  "@id" : "_:genid36",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -73,7 +103,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid32",
+  "@id" : "_:genid48",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -91,7 +121,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid39",
+  "@id" : "_:genid55",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -107,16 +137,33 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid45",
+  "@id" : "_:genid7",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HalvTørr"
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#disputed"
     }, {
-      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Søt"
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#non_self_governing"
     }, {
-      "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tørr"
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#other"
+    }, {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#self_governing"
     } ]
+  } ]
+}, {
+  "@id" : "http://aims.fao.org/aos/geopolitical.owl#Mexico",
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harProdusert" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#DonJulioAnejo"
+  } ]
+}, {
+  "@id" : "http://aims.fao.org/aos/geopolitical.owl#Norway",
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harProdusert" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GildeSkreiAquavit"
+  } ]
+}, {
+  "@id" : "http://aims.fao.org/aos/geopolitical.owl#group",
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#territory"
   } ]
 }, {
   "@id" : "http://dbpedia.org/resource/Amber_(color)",
@@ -185,7 +232,7 @@
     "@value" : "A ontology listing a selection of products that Vinmonopolet offers."
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries"
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Alkohol",
@@ -216,19 +263,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råvare"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#BarsolPiscoSelectoTorontel",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#BrenneVin" ],
-  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "41.3"
-  } ],
-  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Peru"
-  } ],
-  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#passerTilRåvare" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Aperitiff"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Beaujolais",
@@ -331,9 +365,6 @@
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "13.5"
-  } ],
-  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#France"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
@@ -448,7 +479,7 @@
     "@value" : "38"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Mexico"
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#Mexico"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFarge" : [ {
     "@id" : "http://dbpedia.org/resource/Amber_(color)"
@@ -517,7 +548,7 @@
     "@value" : "40"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Norway"
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#Norway"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFarge" : [ {
     "@id" : "http://dbpedia.org/resource/Champagne_(color)"
@@ -541,12 +572,6 @@
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Farge"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HalvTørr",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme"
-  } ]
-}, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Halvtørr",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ]
 }, {
@@ -567,9 +592,6 @@
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "14.8"
-  } ],
-  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#UnitedStates"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
@@ -629,7 +651,7 @@
     "@value" : "10.5"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Austria"
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#Austria"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFarge" : [ {
     "@id" : "http://dbpedia.org/resource/Peach_(color)"
@@ -738,9 +760,6 @@
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "13.5"
   } ],
-  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Italy"
-  } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#semiFrisk"
   } ],
@@ -766,9 +785,6 @@
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "20"
-  } ],
-  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Portugal"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFarge" : [ {
     "@id" : "http://dbpedia.org/resource/Burgundy_(color)"
@@ -829,7 +845,7 @@
     "@value" : "12.5"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#France"
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#France"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFarge" : [ {
     "@id" : "http://dbpedia.org/resource/Shades_of_yellow__Goldenrod__1"
@@ -970,10 +986,7 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Søt",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SøtFrukt",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Frukt" ]
@@ -991,10 +1004,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VinDrue" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tørr",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VeldigSøt",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme" ]
@@ -1039,7 +1049,7 @@
     "@value" : "12.5"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#France"
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#France"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFarge" : [ {
     "@id" : "http://dbpedia.org/resource/Chartreuse_(color)"
@@ -1066,6 +1076,43 @@
   "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#årGang" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "2015"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#WongravenChampagneBrut",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Champagne" ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#beskrivelseLukt" : [ {
+    "@value" : "Frisk og ren, sitrus og kjeks, floral, mineralsk innslag."
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#beskrivelseSmak" : [ {
+    "@value" : "Frisk, tørr med ren frukt og florale elementer"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#France"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#veldigFrisk"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFylde"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harSødme" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tørr"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedDrue" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ChardonnayDrue"
+  }, {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PinotNoirDrue"
+  } ],
+  "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#passerTilRåvare" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Aperitiff"
+  }, {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fisk"
+  }, {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Skalldyr"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Yquem",
@@ -1114,12 +1161,15 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AlkoholiskBrygg"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries#Country"
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#territory"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harProdusert"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harBitterhet",
@@ -1192,6 +1242,15 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harProdusert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aims.fao.org/aos/geopolitical.owl#territory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AlkoholiskBrygg"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harSødme",
