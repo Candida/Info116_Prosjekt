@@ -71440,8 +71440,8 @@
   "@id" : "http://www.semanticweb.org/ateli/ontologies/2016/10/vinmonopolet_combined#EfesPilsner",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/10/vinmonopolet_combined#PilsnerØl" ],
   "http://www.semanticweb.org/ateli/ontologies/2016/10/vinmonopolet_combined#alkoholProsent" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "5"
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.00"
   } ],
   "http://www.semanticweb.org/ateli/ontologies/2016/10/vinmonopolet_combined#erProdusertI" : [ {
     "@id" : "http://aims.fao.org/aos/geopolitical.owl#Germany"

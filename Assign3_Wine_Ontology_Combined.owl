@@ -28006,7 +28006,7 @@ Uses FAO geopolitical ontology for list of countries, found here: http://www.fao
         <passerTilRåvare rdf:resource="http://www.semanticweb.org/ateli/ontologies/2016/10/vinmonopolet_combined#Aperitiff"/>
         <passerTilRåvare rdf:resource="http://www.semanticweb.org/ateli/ontologies/2016/10/vinmonopolet_combined#Fisk"/>
         <passerTilRåvare rdf:resource="http://www.semanticweb.org/ateli/ontologies/2016/10/vinmonopolet_combined#Tamfugl"/>
-        <alkoholProsent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</alkoholProsent>
+        <alkoholProsent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.00</alkoholProsent>
         <schema:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.60</schema:price>
     </owl:NamedIndividual>
     
