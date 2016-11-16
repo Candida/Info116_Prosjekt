@@ -3,13 +3,11 @@
      xml:base="http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14"
      xmlns:schema="https://schema.org/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:untitled-ontology-14="http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:geopolitical="http://aims.fao.org/aos/geopolitical.owl#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ontology listing a selection of products that Vinmonopolet offers.
 Uses FAO geopolitical ontology for list of countries.</rdfs:comment>
@@ -958,7 +956,7 @@ Uses FAO geopolitical ontology for list of countries.</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://aims.fao.org/aos/geopolitical.owl#Frankrike">
         <rdf:type rdf:resource="http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Land"/>
-        <owl:sameAs>http://dbpedia.org/page/France</owl:sameAs>
+        <owl:sameAs>http://dbpedia.org/resource/France</owl:sameAs>
     </owl:NamedIndividual>
     
 

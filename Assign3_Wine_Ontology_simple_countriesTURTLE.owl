@@ -4,10 +4,6 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix terms: <http://purl.org/dc/terms/> .
-@prefix schema: <https://schema.org/> .
-@prefix geopolitical: <http://aims.fao.org/aos/geopolitical.owl#> .
-@prefix untitled-ontology-14: <http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#> .
 @base <http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14> .
 
 <http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14> rdf:type owl:Ontology ;
@@ -27,102 +23,102 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #################################################################
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#erProdusertI
-untitled-ontology-14:erProdusertI rdf:type owl:ObjectProperty ;
-                                  owl:inverseOf untitled-ontology-14:harProdusert ;
-                                  rdf:type owl:FunctionalProperty ;
-                                  rdfs:domain untitled-ontology-14:AlkoholiskBrygg .
+:erProdusertI rdf:type owl:ObjectProperty ;
+              owl:inverseOf :harProdusert ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :AlkoholiskBrygg .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harBitterhet
-untitled-ontology-14:harBitterhet rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf untitled-ontology-14:harKarakteristikk ;
-                                  rdf:type owl:FunctionalProperty ;
-                                  rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                                  rdfs:range untitled-ontology-14:Bitterhet .
+:harBitterhet rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :harKarakteristikk ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :AlkoholiskBrygg ;
+              rdfs:range :Bitterhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFarge
-untitled-ontology-14:harFarge rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf untitled-ontology-14:harKarakteristikk ;
-                              rdf:type owl:FunctionalProperty ;
-                              rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                              rdfs:range untitled-ontology-14:Farge .
+:harFarge rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :harKarakteristikk ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :AlkoholiskBrygg ;
+          rdfs:range :Farge .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFriskhet
-untitled-ontology-14:harFriskhet rdf:type owl:ObjectProperty ;
-                                 rdfs:subPropertyOf untitled-ontology-14:harKarakteristikk ;
-                                 rdf:type owl:FunctionalProperty ;
-                                 rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                                 rdfs:range untitled-ontology-14:Friskhet .
+:harFriskhet rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :harKarakteristikk ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :AlkoholiskBrygg ;
+             rdfs:range :Friskhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harFylde
-untitled-ontology-14:harFylde rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf untitled-ontology-14:harKarakteristikk ;
-                              rdf:type owl:FunctionalProperty ;
-                              rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                              rdfs:range untitled-ontology-14:Fylde .
+:harFylde rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :harKarakteristikk ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :AlkoholiskBrygg ;
+          rdfs:range :Fylde .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harGarveStoff
-untitled-ontology-14:harGarveStoff rdf:type owl:ObjectProperty ;
-                                   rdfs:subPropertyOf untitled-ontology-14:harKarakteristikk ;
-                                   rdfs:domain untitled-ontology-14:Vin ;
-                                   rdfs:range untitled-ontology-14:GarveStoff .
+:harGarveStoff rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :harKarakteristikk ;
+               rdfs:domain :Vin ;
+               rdfs:range :GarveStoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harKarakteristikk
-untitled-ontology-14:harKarakteristikk rdf:type owl:ObjectProperty ;
-                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                       rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                                       rdfs:range untitled-ontology-14:Karakteristikk .
+:harKarakteristikk rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :AlkoholiskBrygg ;
+                   rdfs:range :Karakteristikk .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harProdusert
-untitled-ontology-14:harProdusert rdf:type owl:ObjectProperty ;
-                                  rdfs:range untitled-ontology-14:AlkoholiskBrygg .
+:harProdusert rdf:type owl:ObjectProperty ;
+              rdfs:range :AlkoholiskBrygg .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#harSødme
-untitled-ontology-14:harSødme rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf untitled-ontology-14:harKarakteristikk ;
-                              rdf:type owl:FunctionalProperty ;
-                              rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                              rdfs:range untitled-ontology-14:Sødme .
+:harSødme rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :harKarakteristikk ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :AlkoholiskBrygg ;
+          rdfs:range :Sødme .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMed
-untitled-ontology-14:lagetMed rdf:type owl:ObjectProperty ;
-                              rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                              rdfs:range untitled-ontology-14:Råstoff .
+:lagetMed rdf:type owl:ObjectProperty ;
+          rdfs:domain :AlkoholiskBrygg ;
+          rdfs:range :Råstoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedDrue
-untitled-ontology-14:lagetMedDrue rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf untitled-ontology-14:lagetMed ;
-                                  rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                                  rdfs:range untitled-ontology-14:Råstoff .
+:lagetMedDrue rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :lagetMed ;
+              rdfs:domain :AlkoholiskBrygg ;
+              rdfs:range :Råstoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lagetMedMalt
-untitled-ontology-14:lagetMedMalt rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf untitled-ontology-14:lagetMed .
+:lagetMedMalt rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :lagetMed .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#passerTilAlkohol
-untitled-ontology-14:passerTilAlkohol rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf owl:topObjectProperty ;
-                                      owl:inverseOf untitled-ontology-14:passerTilRåvare ;
-                                      rdfs:domain untitled-ontology-14:Råvare ;
-                                      rdfs:range untitled-ontology-14:AlkoholiskBrygg .
+:passerTilAlkohol rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  owl:inverseOf :passerTilRåvare ;
+                  rdfs:domain :Råvare ;
+                  rdfs:range :AlkoholiskBrygg .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#passerTilRåvare
-untitled-ontology-14:passerTilRåvare rdf:type owl:ObjectProperty ;
-                                     rdfs:subPropertyOf owl:topObjectProperty ;
-                                     rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                                     rdfs:range untitled-ontology-14:Råvare .
+:passerTilRåvare rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:domain :AlkoholiskBrygg ;
+                 rdfs:range :Råvare .
 
 
 #################################################################
@@ -130,36 +126,36 @@ untitled-ontology-14:passerTilRåvare rdf:type owl:ObjectProperty ;
 #################################################################
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#alkoholProsent
-untitled-ontology-14:alkoholProsent rdf:type owl:DatatypeProperty ,
-                                             owl:FunctionalProperty ;
-                                    rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                                    rdfs:range xsd:decimal .
+:alkoholProsent rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :AlkoholiskBrygg ;
+                rdfs:range xsd:decimal .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#beskrivelseLukt
-untitled-ontology-14:beskrivelseLukt rdf:type owl:DatatypeProperty ;
-                                     rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                                     rdfs:range xsd:string .
+:beskrivelseLukt rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :AlkoholiskBrygg ;
+                 rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#beskrivelseSmak
-untitled-ontology-14:beskrivelseSmak rdf:type owl:DatatypeProperty ;
-                                     rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                                     rdfs:range xsd:string .
+:beskrivelseSmak rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :AlkoholiskBrygg ;
+                 rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#årGang
-untitled-ontology-14:årGang rdf:type owl:DatatypeProperty ,
-                                     owl:FunctionalProperty ;
-                            rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-                            rdfs:range xsd:positiveInteger .
+:årGang rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain :AlkoholiskBrygg ;
+        rdfs:range xsd:positiveInteger .
 
 
 ###  https://schema.org/price
-schema:price rdf:type owl:DatatypeProperty ,
-                      owl:FunctionalProperty ;
-             rdfs:domain untitled-ontology-14:AlkoholiskBrygg ;
-             rdfs:range xsd:decimal .
+<https://schema.org/price> rdf:type owl:DatatypeProperty ,
+                                    owl:FunctionalProperty ;
+                           rdfs:domain :AlkoholiskBrygg ;
+                           rdfs:range xsd:decimal .
 
 
 #################################################################
@@ -167,434 +163,434 @@ schema:price rdf:type owl:DatatypeProperty ,
 #################################################################
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AleØl
-untitled-ontology-14:AleØl rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:Øl .
+:AleØl rdf:type owl:Class ;
+       rdfs:subClassOf :Øl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Alkohol
-untitled-ontology-14:Alkohol rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:Råvare .
+:Alkohol rdf:type owl:Class ;
+         rdfs:subClassOf :Råvare .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AlkoholiskBrygg
-untitled-ontology-14:AlkoholiskBrygg rdf:type owl:Class .
+:AlkoholiskBrygg rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#AromatisertVin
-untitled-ontology-14:AromatisertVin rdf:type owl:Class ;
-                                    rdfs:subClassOf untitled-ontology-14:Vin .
+:AromatisertVin rdf:type owl:Class ;
+                rdfs:subClassOf :Vin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Avling
-untitled-ontology-14:Avling rdf:type owl:Class ;
-                            rdfs:subClassOf untitled-ontology-14:Råvare .
+:Avling rdf:type owl:Class ;
+        rdfs:subClassOf :Råvare .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Bakst
-untitled-ontology-14:Bakst rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:Råvare .
+:Bakst rdf:type owl:Class ;
+       rdfs:subClassOf :Råvare .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Beaujolais
-untitled-ontology-14:Beaujolais rdf:type owl:Class ;
-                                rdfs:subClassOf untitled-ontology-14:RødVin .
+:Beaujolais rdf:type owl:Class ;
+            rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Bitterhet
-untitled-ontology-14:Bitterhet rdf:type owl:Class ;
-                               rdfs:subClassOf untitled-ontology-14:Karakteristikk .
+:Bitterhet rdf:type owl:Class ;
+           rdfs:subClassOf :Karakteristikk .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#BrenneVin
-untitled-ontology-14:BrenneVin rdf:type owl:Class ;
-                               rdfs:subClassOf untitled-ontology-14:Vin .
+:BrenneVin rdf:type owl:Class ;
+           rdfs:subClassOf :Vin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#BrunNyanser
-untitled-ontology-14:BrunNyanser rdf:type owl:Class ;
-                                 rdfs:subClassOf untitled-ontology-14:Farge .
+:BrunNyanser rdf:type owl:Class ;
+             rdfs:subClassOf :Farge .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Brygge
-untitled-ontology-14:Brygge rdf:type owl:Class ;
-                            rdfs:subClassOf untitled-ontology-14:AlkoholiskBrygg ;
-                            owl:disjointWith untitled-ontology-14:Vin .
+:Brygge rdf:type owl:Class ;
+        rdfs:subClassOf :AlkoholiskBrygg ;
+        owl:disjointWith :Vin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Cabernet
-untitled-ontology-14:Cabernet rdf:type owl:Class ;
-                              rdfs:subClassOf untitled-ontology-14:RødVin .
+:Cabernet rdf:type owl:Class ;
+          rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#CabernetSauvignon
-untitled-ontology-14:CabernetSauvignon rdf:type owl:Class ;
-                                       rdfs:subClassOf untitled-ontology-14:RødVin .
+:CabernetSauvignon rdf:type owl:Class ;
+                   rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Canary
-untitled-ontology-14:Canary rdf:type owl:Class ;
-                            rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Canary rdf:type owl:Class ;
+        rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Chablis
-untitled-ontology-14:Chablis rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Chablis rdf:type owl:Class ;
+         rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Champagne
-untitled-ontology-14:Champagne rdf:type owl:Class ;
-                               rdfs:subClassOf untitled-ontology-14:MusserendeVin .
+:Champagne rdf:type owl:Class ;
+           rdfs:subClassOf :MusserendeVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Chardonnay
-untitled-ontology-14:Chardonnay rdf:type owl:Class ;
-                                rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Chardonnay rdf:type owl:Class ;
+            rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#CheninBlanc
-untitled-ontology-14:CheninBlanc rdf:type owl:Class ;
-                                 rdfs:subClassOf untitled-ontology-14:HvitVin .
+:CheninBlanc rdf:type owl:Class ;
+             rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Chianti
-untitled-ontology-14:Chianti rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:RødVin .
+:Chianti rdf:type owl:Class ;
+         rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Claret
-untitled-ontology-14:Claret rdf:type owl:Class ;
-                            rdfs:subClassOf untitled-ontology-14:RødVin .
+:Claret rdf:type owl:Class ;
+        rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Farge
-untitled-ontology-14:Farge rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:Karakteristikk .
+:Farge rdf:type owl:Class ;
+       rdfs:subClassOf :Karakteristikk .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#FatØl
-untitled-ontology-14:FatØl rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:Øl .
+:FatØl rdf:type owl:Class ;
+       rdfs:subClassOf :Øl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Friskhet
-untitled-ontology-14:Friskhet rdf:type owl:Class ;
-                              rdfs:subClassOf untitled-ontology-14:Karakteristikk .
+:Friskhet rdf:type owl:Class ;
+          rdfs:subClassOf :Karakteristikk .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Frukt
-untitled-ontology-14:Frukt rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:Råvare .
+:Frukt rdf:type owl:Class ;
+       rdfs:subClassOf :Råvare .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#FruktVin
-untitled-ontology-14:FruktVin rdf:type owl:Class ;
-                              rdfs:subClassOf untitled-ontology-14:Vin .
+:FruktVin rdf:type owl:Class ;
+          rdfs:subClassOf :Vin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fugl
-untitled-ontology-14:Fugl rdf:type owl:Class ;
-                          rdfs:subClassOf untitled-ontology-14:Kjøtt .
+:Fugl rdf:type owl:Class ;
+      rdfs:subClassOf :Kjøtt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fylde
-untitled-ontology-14:Fylde rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:Karakteristikk .
+:Fylde rdf:type owl:Class ;
+       rdfs:subClassOf :Karakteristikk .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GarveStoff
-untitled-ontology-14:GarveStoff rdf:type owl:Class ;
-                                rdfs:subClassOf untitled-ontology-14:Karakteristikk .
+:GarveStoff rdf:type owl:Class ;
+            rdfs:subClassOf :Karakteristikk .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GuinnessØl
-untitled-ontology-14:GuinnessØl rdf:type owl:Class ;
-                                rdfs:subClassOf untitled-ontology-14:StoutØl .
+:GuinnessØl rdf:type owl:Class ;
+            rdfs:subClassOf :StoutØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GulGrønnNyanser
-untitled-ontology-14:GulGrønnNyanser rdf:type owl:Class ;
-                                     rdfs:subClassOf untitled-ontology-14:GulNyanser .
+:GulGrønnNyanser rdf:type owl:Class ;
+                 rdfs:subClassOf :GulNyanser .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GulNyanser
-untitled-ontology-14:GulNyanser rdf:type owl:Class ;
-                                rdfs:subClassOf untitled-ontology-14:Farge .
+:GulNyanser rdf:type owl:Class ;
+            rdfs:subClassOf :Farge .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HevingsMiddel
-untitled-ontology-14:HevingsMiddel rdf:type owl:Class ;
-                                   rdfs:subClassOf untitled-ontology-14:Råstoff .
+:HevingsMiddel rdf:type owl:Class ;
+               rdfs:subClassOf :Råstoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HveteØl
-untitled-ontology-14:HveteØl rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:AleØl .
+:HveteØl rdf:type owl:Class ;
+         rdfs:subClassOf :AleØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HvitNyanser
-untitled-ontology-14:HvitNyanser rdf:type owl:Class ;
-                                 rdfs:subClassOf untitled-ontology-14:Farge .
+:HvitNyanser rdf:type owl:Class ;
+             rdfs:subClassOf :Farge .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HvitVin
-untitled-ontology-14:HvitVin rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:Vin .
+:HvitVin rdf:type owl:Class ;
+         rdfs:subClassOf :Vin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Karakteristikk
-untitled-ontology-14:Karakteristikk rdf:type owl:Class .
+:Karakteristikk rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Kjøtt
-untitled-ontology-14:Kjøtt rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:Råvare .
+:Kjøtt rdf:type owl:Class ;
+       rdfs:subClassOf :Råvare .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Korn
-untitled-ontology-14:Korn rdf:type owl:Class ;
-                          rdfs:subClassOf untitled-ontology-14:Råstoff .
+:Korn rdf:type owl:Class ;
+      rdfs:subClassOf :Råstoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LagerØl
-untitled-ontology-14:LagerØl rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:Øl .
+:LagerØl rdf:type owl:Class ;
+         rdfs:subClassOf :Øl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Land
-untitled-ontology-14:Land rdf:type owl:Class .
+:Land rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LettØl
-untitled-ontology-14:LettØl rdf:type owl:Class ;
-                            rdfs:subClassOf untitled-ontology-14:LagerØl .
+:LettØl rdf:type owl:Class ;
+        rdfs:subClassOf :LagerØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#LysLagerØl
-untitled-ontology-14:LysLagerØl rdf:type owl:Class ;
-                                rdfs:subClassOf untitled-ontology-14:LagerØl .
+:LysLagerØl rdf:type owl:Class ;
+            rdfs:subClassOf :LagerØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt
-untitled-ontology-14:Malt rdf:type owl:Class ;
-                          rdfs:subClassOf untitled-ontology-14:Korn .
+:Malt rdf:type owl:Class ;
+      rdfs:subClassOf :Korn .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Medoc
-untitled-ontology-14:Medoc rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:RødVin .
+:Medoc rdf:type owl:Class ;
+       rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MelkeProdukt
-untitled-ontology-14:MelkeProdukt rdf:type owl:Class ;
-                                  rdfs:subClassOf untitled-ontology-14:Råvare .
+:MelkeProdukt rdf:type owl:Class ;
+              rdfs:subClassOf :Råvare .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Merlot
-untitled-ontology-14:Merlot rdf:type owl:Class ;
-                            rdfs:subClassOf untitled-ontology-14:RødVin .
+:Merlot rdf:type owl:Class ;
+        rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Montrachet
-untitled-ontology-14:Montrachet rdf:type owl:Class ;
-                                rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Montrachet rdf:type owl:Class ;
+            rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Moselle
-untitled-ontology-14:Moselle rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Moselle rdf:type owl:Class ;
+         rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MunichØl
-untitled-ontology-14:MunichØl rdf:type owl:Class ;
-                              rdfs:subClassOf untitled-ontology-14:LagerØl .
+:MunichØl rdf:type owl:Class ;
+          rdfs:subClassOf :LagerØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Muscadet
-untitled-ontology-14:Muscadet rdf:type owl:Class ;
-                              rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Muscadet rdf:type owl:Class ;
+          rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MusserendeVin
-untitled-ontology-14:MusserendeVin rdf:type owl:Class ;
-                                   rdfs:subClassOf untitled-ontology-14:Vin .
+:MusserendeVin rdf:type owl:Class ;
+               rdfs:subClassOf :Vin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MørkLagerØl
-untitled-ontology-14:MørkLagerØl rdf:type owl:Class ;
-                                 rdfs:subClassOf untitled-ontology-14:LagerØl .
+:MørkLagerØl rdf:type owl:Class ;
+             rdfs:subClassOf :LagerØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PaleAleØl
-untitled-ontology-14:PaleAleØl rdf:type owl:Class ;
-                               rdfs:subClassOf untitled-ontology-14:AleØl .
+:PaleAleØl rdf:type owl:Class ;
+           rdfs:subClassOf :AleØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PerlendeVin
-untitled-ontology-14:PerlendeVin rdf:type owl:Class ;
-                                 rdfs:subClassOf untitled-ontology-14:Vin .
+:PerlendeVin rdf:type owl:Class ;
+             rdfs:subClassOf :Vin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PilsnerØl
-untitled-ontology-14:PilsnerØl rdf:type owl:Class ;
-                               rdfs:subClassOf untitled-ontology-14:LagerØl .
+:PilsnerØl rdf:type owl:Class ;
+           rdfs:subClassOf :LagerØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PinotBlanc
-untitled-ontology-14:PinotBlanc rdf:type owl:Class ;
-                                rdfs:subClassOf untitled-ontology-14:HvitVin .
+:PinotBlanc rdf:type owl:Class ;
+            rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PinotNoit
-untitled-ontology-14:PinotNoit rdf:type owl:Class ;
-                               rdfs:subClassOf untitled-ontology-14:RødVin .
+:PinotNoit rdf:type owl:Class ;
+           rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Plante
-untitled-ontology-14:Plante rdf:type owl:Class ;
-                            rdfs:subClassOf untitled-ontology-14:Råstoff .
+:Plante rdf:type owl:Class ;
+        rdfs:subClassOf :Råstoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PorterØl
-untitled-ontology-14:PorterØl rdf:type owl:Class ;
-                              rdfs:subClassOf untitled-ontology-14:AleØl .
+:PorterØl rdf:type owl:Class ;
+          rdfs:subClassOf :AleØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Rett
-untitled-ontology-14:Rett rdf:type owl:Class ;
-                          rdfs:subClassOf untitled-ontology-14:Råvare .
+:Rett rdf:type owl:Class ;
+      rdfs:subClassOf :Råvare .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RhineWine
-untitled-ontology-14:RhineWine rdf:type owl:Class ;
-                               rdfs:subClassOf untitled-ontology-14:HvitVin .
+:RhineWine rdf:type owl:Class ;
+           rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Rioja
-untitled-ontology-14:Rioja rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:RødVin .
+:Rioja rdf:type owl:Class ;
+       rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RosaNyanser
-untitled-ontology-14:RosaNyanser rdf:type owl:Class ;
-                                 rdfs:subClassOf untitled-ontology-14:RødNyanser .
+:RosaNyanser rdf:type owl:Class ;
+             rdfs:subClassOf :RødNyanser .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RoseVin
-untitled-ontology-14:RoseVin rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:Vin .
+:RoseVin rdf:type owl:Class ;
+         rdfs:subClassOf :Vin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råstoff
-untitled-ontology-14:Råstoff rdf:type owl:Class .
+:Råstoff rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Råvare
-untitled-ontology-14:Råvare rdf:type owl:Class .
+:Råvare rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RødBordeaux
-untitled-ontology-14:RødBordeaux rdf:type owl:Class ;
-                                 rdfs:subClassOf untitled-ontology-14:RødVin .
+:RødBordeaux rdf:type owl:Class ;
+             rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RødNyanser
-untitled-ontology-14:RødNyanser rdf:type owl:Class ;
-                                rdfs:subClassOf untitled-ontology-14:Farge .
+:RødNyanser rdf:type owl:Class ;
+            rdfs:subClassOf :Farge .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RødVin
-untitled-ontology-14:RødVin rdf:type owl:Class ;
-                            rdfs:subClassOf untitled-ontology-14:Vin .
+:RødVin rdf:type owl:Class ;
+        rdfs:subClassOf :Vin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sack
-untitled-ontology-14:Sack rdf:type owl:Class ;
-                          rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Sack rdf:type owl:Class ;
+      rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sauternes
-untitled-ontology-14:Sauternes rdf:type owl:Class ;
-                               rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Sauternes rdf:type owl:Class ;
+           rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SauvignonBlanc
-untitled-ontology-14:SauvignonBlanc rdf:type owl:Class ;
-                                    rdfs:subClassOf untitled-ontology-14:HvitVin .
+:SauvignonBlanc rdf:type owl:Class ;
+                rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ScotchAleØl
-untitled-ontology-14:ScotchAleØl rdf:type owl:Class ;
-                                 rdfs:subClassOf untitled-ontology-14:AleØl .
+:ScotchAleØl rdf:type owl:Class ;
+             rdfs:subClassOf :AleØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SjøMat
-untitled-ontology-14:SjøMat rdf:type owl:Class ;
-                            rdfs:subClassOf untitled-ontology-14:Råvare .
+:SjøMat rdf:type owl:Class ;
+        rdfs:subClassOf :Råvare .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Soave
-untitled-ontology-14:Soave rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Soave rdf:type owl:Class ;
+       rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SortNyanser
-untitled-ontology-14:SortNyanser rdf:type owl:Class ;
-                                 rdfs:subClassOf untitled-ontology-14:Farge .
+:SortNyanser rdf:type owl:Class ;
+             rdfs:subClassOf :Farge .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SterkVin
-untitled-ontology-14:SterkVin rdf:type owl:Class ;
-                              rdfs:subClassOf untitled-ontology-14:Vin .
+:SterkVin rdf:type owl:Class ;
+          rdfs:subClassOf :Vin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#StoutØl
-untitled-ontology-14:StoutØl rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:AleØl .
+:StoutØl rdf:type owl:Class ;
+         rdfs:subClassOf :AleØl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sødme
-untitled-ontology-14:Sødme rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:Karakteristikk .
+:Sødme rdf:type owl:Class ;
+       rdfs:subClassOf :Karakteristikk .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Verdicchio
-untitled-ontology-14:Verdicchio rdf:type owl:Class ;
-                                rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Verdicchio rdf:type owl:Class ;
+            rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Vilt
-untitled-ontology-14:Vilt rdf:type owl:Class ;
-                          rdfs:subClassOf untitled-ontology-14:Kjøtt .
+:Vilt rdf:type owl:Class ;
+      rdfs:subClassOf :Kjøtt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Vin
-untitled-ontology-14:Vin rdf:type owl:Class ;
-                         rdfs:subClassOf untitled-ontology-14:AlkoholiskBrygg .
+:Vin rdf:type owl:Class ;
+     rdfs:subClassOf :AlkoholiskBrygg .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#VinDrue
-untitled-ontology-14:VinDrue rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:Råstoff .
+:VinDrue rdf:type owl:Class ;
+         rdfs:subClassOf :Råstoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Vouvray
-untitled-ontology-14:Vouvray rdf:type owl:Class ;
-                             rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Vouvray rdf:type owl:Class ;
+         rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Yquem
-untitled-ontology-14:Yquem rdf:type owl:Class ;
-                           rdfs:subClassOf untitled-ontology-14:HvitVin .
+:Yquem rdf:type owl:Class ;
+       rdfs:subClassOf :HvitVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Zinfandel
-untitled-ontology-14:Zinfandel rdf:type owl:Class ;
-                               rdfs:subClassOf untitled-ontology-14:RødVin .
+:Zinfandel rdf:type owl:Class ;
+           rdfs:subClassOf :RødVin .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Øl
-untitled-ontology-14:Øl rdf:type owl:Class ;
-                        rdfs:subClassOf untitled-ontology-14:Brygge .
+:Øl rdf:type owl:Class ;
+    rdfs:subClassOf :Brygge .
 
 
 #################################################################
@@ -602,758 +598,758 @@ untitled-ontology-14:Øl rdf:type owl:Class ;
 #################################################################
 
 ###  http://aims.fao.org/aos/geopolitical.owl#Frankrike
-geopolitical:Frankrike rdf:type owl:NamedIndividual ,
-                                untitled-ontology-14:Land ;
-                       owl:sameAs "http://dbpedia.org/page/France" .
+<http://aims.fao.org/aos/geopolitical.owl#Frankrike> rdf:type owl:NamedIndividual ,
+                                                              :Land ;
+                                                     owl:sameAs "http://dbpedia.org/resource/France" .
 
 
 ###  http://aims.fao.org/aos/geopolitical.owl#Italia
-geopolitical:Italia rdf:type owl:NamedIndividual ,
-                             untitled-ontology-14:Land ;
-                    owl:sameAs "http://dbpedia.org/resource/Italy" .
+<http://aims.fao.org/aos/geopolitical.owl#Italia> rdf:type owl:NamedIndividual ,
+                                                           :Land ;
+                                                  owl:sameAs "http://dbpedia.org/resource/Italy" .
 
 
 ###  http://aims.fao.org/aos/geopolitical.owl#Mexico
-geopolitical:Mexico rdf:type owl:NamedIndividual ,
-                             untitled-ontology-14:Land ;
-                    untitled-ontology-14:harProdusert untitled-ontology-14:DonJulioAnejo ;
-                    owl:sameAs "http://dbpedia.org/resource/Mexico" .
+<http://aims.fao.org/aos/geopolitical.owl#Mexico> rdf:type owl:NamedIndividual ,
+                                                           :Land ;
+                                                  :harProdusert :DonJulioAnejo ;
+                                                  owl:sameAs "http://dbpedia.org/resource/Mexico" .
 
 
 ###  http://aims.fao.org/aos/geopolitical.owl#Norge
-geopolitical:Norge rdf:type owl:NamedIndividual ,
-                            untitled-ontology-14:Land ;
-                   untitled-ontology-14:harProdusert untitled-ontology-14:GildeSkreiAquavit ;
-                   owl:sameAs "http://dbpedia.org/resource/Norway" .
+<http://aims.fao.org/aos/geopolitical.owl#Norge> rdf:type owl:NamedIndividual ,
+                                                          :Land ;
+                                                 :harProdusert :GildeSkreiAquavit ;
+                                                 owl:sameAs "http://dbpedia.org/resource/Norway" .
 
 
 ###  http://aims.fao.org/aos/geopolitical.owl#StorBritannia
-geopolitical:StorBritannia rdf:type owl:NamedIndividual ,
-                                    untitled-ontology-14:Land ;
-                           owl:sameAs "http://dbpedia.org/resource/United_Kingdom" .
+<http://aims.fao.org/aos/geopolitical.owl#StorBritannia> rdf:type owl:NamedIndividual ,
+                                                                  :Land ;
+                                                         owl:sameAs "http://dbpedia.org/resource/United_Kingdom" .
 
 
 ###  http://aims.fao.org/aos/geopolitical.owl#Tyskland
-geopolitical:Tyskland rdf:type owl:NamedIndividual ,
-                               untitled-ontology-14:Land ;
-                      owl:sameAs "http://dbpedia.org/resource/Germany" .
+<http://aims.fao.org/aos/geopolitical.owl#Tyskland> rdf:type owl:NamedIndividual ,
+                                                             :Land ;
+                                                    owl:sameAs "http://dbpedia.org/resource/Germany" .
 
 
 ###  http://aims.fao.org/aos/geopolitical.owl#USA
-geopolitical:USA rdf:type owl:NamedIndividual ,
-                          untitled-ontology-14:Land ;
-                 owl:sameAs "http://dbpedia.org/resource/United_States" .
+<http://aims.fao.org/aos/geopolitical.owl#USA> rdf:type owl:NamedIndividual ,
+                                                        :Land ;
+                                               owl:sameAs "http://dbpedia.org/resource/United_States" .
 
 
 ###  http://aims.fao.org/aos/geopolitical.owl#Østerrike
-geopolitical:Østerrike rdf:type owl:NamedIndividual ,
-                                untitled-ontology-14:Land ;
-                       owl:sameAs "http://dbpedia.org/resource/Austria" .
+<http://aims.fao.org/aos/geopolitical.owl#Østerrike> rdf:type owl:NamedIndividual ,
+                                                              :Land ;
+                                                     owl:sameAs "http://dbpedia.org/resource/Austria" .
 
 
 ###  http://dbpedia.org/resource/Black
 <http://dbpedia.org/resource/Black> rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:SortNyanser .
+                                             :SortNyanser .
 
 
 ###  http://dbpedia.org/resource/Brown
 <http://dbpedia.org/resource/Brown> rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:BrunNyanser .
+                                             :BrunNyanser .
 
 
 ###  http://dbpedia.org/resource/Dregs_of_wine
 <http://dbpedia.org/resource/Dregs_of_wine> rdf:type owl:NamedIndividual ,
-                                                     untitled-ontology-14:RødNyanser .
+                                                     :RødNyanser .
 
 
 ###  http://dbpedia.org/resource/Maroon
 <http://dbpedia.org/resource/Maroon> rdf:type owl:NamedIndividual ,
-                                              untitled-ontology-14:RødNyanser .
+                                              :RødNyanser .
 
 
 ###  http://dbpedia.org/resource/Naples_yellow
 <http://dbpedia.org/resource/Naples_yellow> rdf:type owl:NamedIndividual ,
-                                                     untitled-ontology-14:GulNyanser .
+                                                     :GulNyanser .
 
 
 ###  http://dbpedia.org/resource/Ochre
 <http://dbpedia.org/resource/Ochre> rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:BrunNyanser .
+                                             :BrunNyanser .
 
 
 ###  http://dbpedia.org/resource/Shades_of_yellow__Goldenrod__1
 <http://dbpedia.org/resource/Shades_of_yellow__Goldenrod__1> rdf:type owl:NamedIndividual ,
-                                                                      untitled-ontology-14:GulNyanser .
+                                                                      :GulNyanser .
 
 
 ###  http://dbpedia.org/resource/Umber
 <http://dbpedia.org/resource/Umber> rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:BrunNyanser .
+                                             :BrunNyanser .
 
 
 ###  http://dbpedia.org/resource/White
 <http://dbpedia.org/resource/White> rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:HvitNyanser .
+                                             :HvitNyanser .
 
 
 ###  http://dbpedia.org/resource/Amber_(color)
 <http://dbpedia.org/resource/Amber_(color)> rdf:type owl:NamedIndividual ,
-                                                     untitled-ontology-14:BrunNyanser .
+                                                     :BrunNyanser .
 
 
 ###  http://dbpedia.org/resource/Apricot_(color)
 <http://dbpedia.org/resource/Apricot_(color)> rdf:type owl:NamedIndividual ,
-                                                       untitled-ontology-14:RosaNyanser .
+                                                       :RosaNyanser .
 
 
 ###  http://dbpedia.org/resource/Burgundy_(color)
 <http://dbpedia.org/resource/Burgundy_(color)> rdf:type owl:NamedIndividual ,
-                                                        untitled-ontology-14:RødNyanser .
+                                                        :RødNyanser .
 
 
 ###  http://dbpedia.org/resource/Champagne_(color)
 <http://dbpedia.org/resource/Champagne_(color)> rdf:type owl:NamedIndividual ,
-                                                         untitled-ontology-14:BrunNyanser ,
-                                                         untitled-ontology-14:GulNyanser .
+                                                         :BrunNyanser ,
+                                                         :GulNyanser .
 
 
 ###  http://dbpedia.org/resource/Chartreuse_(color)
 <http://dbpedia.org/resource/Chartreuse_(color)> rdf:type owl:NamedIndividual ,
-                                                          untitled-ontology-14:GulGrønnNyanser .
+                                                          :GulGrønnNyanser .
 
 
 ###  http://dbpedia.org/resource/Chartreuse_(color)__Lemon_Lime__1
 <http://dbpedia.org/resource/Chartreuse_(color)__Lemon_Lime__1> rdf:type owl:NamedIndividual ,
-                                                                         untitled-ontology-14:GulGrønnNyanser .
+                                                                         :GulGrønnNyanser .
 
 
 ###  http://dbpedia.org/resource/Citrine_(colour)
 <http://dbpedia.org/resource/Citrine_(colour)> rdf:type owl:NamedIndividual ,
-                                                        untitled-ontology-14:GulGrønnNyanser .
+                                                        :GulGrønnNyanser .
 
 
 ###  http://dbpedia.org/resource/Lemon_(color)
 <http://dbpedia.org/resource/Lemon_(color)> rdf:type owl:NamedIndividual ,
-                                                     untitled-ontology-14:GulNyanser .
+                                                     :GulNyanser .
 
 
 ###  http://dbpedia.org/resource/Orange_(colour)
 <http://dbpedia.org/resource/Orange_(colour)> rdf:type owl:NamedIndividual ,
-                                                       untitled-ontology-14:GulNyanser .
+                                                       :GulNyanser .
 
 
 ###  http://dbpedia.org/resource/Peach_(color)
 <http://dbpedia.org/resource/Peach_(color)> rdf:type owl:NamedIndividual ,
-                                                     untitled-ontology-14:RosaNyanser .
+                                                     :RosaNyanser .
 
 
 ###  http://dbpedia.org/resource/Salmon_(color)
 <http://dbpedia.org/resource/Salmon_(color)> rdf:type owl:NamedIndividual ,
-                                                      untitled-ontology-14:RosaNyanser .
+                                                      :RosaNyanser .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Aperitiff
-untitled-ontology-14:Aperitiff rdf:type owl:NamedIndividual ,
-                                        untitled-ontology-14:Alkohol .
+:Aperitiff rdf:type owl:NamedIndividual ,
+                    :Alkohol .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#BlaufränkischDrue
-untitled-ontology-14:BlaufränkischDrue rdf:type owl:NamedIndividual ,
-                                                untitled-ontology-14:VinDrue .
+:BlaufränkischDrue rdf:type owl:NamedIndividual ,
+                            :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ByggMalt
-untitled-ontology-14:ByggMalt rdf:type owl:NamedIndividual ,
-                                       untitled-ontology-14:Malt .
+:ByggMalt rdf:type owl:NamedIndividual ,
+                   :Malt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#CabernetFrancDrue
-untitled-ontology-14:CabernetFrancDrue rdf:type owl:NamedIndividual ,
-                                                untitled-ontology-14:VinDrue .
+:CabernetFrancDrue rdf:type owl:NamedIndividual ,
+                            :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#CabernetSauvignonDrue
-untitled-ontology-14:CabernetSauvignonDrue rdf:type owl:NamedIndividual ,
-                                                    untitled-ontology-14:VinDrue .
+:CabernetSauvignonDrue rdf:type owl:NamedIndividual ,
+                                :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#CasaValduga1875TintoDoce
-untitled-ontology-14:CasaValduga1875TintoDoce rdf:type owl:NamedIndividual ,
-                                                       untitled-ontology-14:SterkVin ;
-                                              untitled-ontology-14:harFarge <http://dbpedia.org/resource/Dregs_of_wine> ;
-                                              untitled-ontology-14:harFriskhet untitled-ontology-14:mediumFrisk ;
-                                              untitled-ontology-14:harFylde untitled-ontology-14:mediumFylde ;
-                                              untitled-ontology-14:harSødme untitled-ontology-14:halvtørr ;
-                                              untitled-ontology-14:lagetMedDrue untitled-ontology-14:CabernetSauvignonDrue ,
-                                                                                untitled-ontology-14:MerlotDrue ;
-                                              untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ,
-                                                                                   untitled-ontology-14:Dessert ,
-                                                                                   untitled-ontology-14:Ost ;
-                                              untitled-ontology-14:alkoholProsent 18.00 ;
-                                              untitled-ontology-14:årGang 2000 .
+:CasaValduga1875TintoDoce rdf:type owl:NamedIndividual ,
+                                   :SterkVin ;
+                          :harFarge <http://dbpedia.org/resource/Dregs_of_wine> ;
+                          :harFriskhet :mediumFrisk ;
+                          :harFylde :mediumFylde ;
+                          :harSødme :halvtørr ;
+                          :lagetMedDrue :CabernetSauvignonDrue ,
+                                        :MerlotDrue ;
+                          :passerTilRåvare :Aperitiff ,
+                                           :Dessert ,
+                                           :Ost ;
+                          :alkoholProsent 18.00 ;
+                          :årGang 2000 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Ch.GuiraudSauternes
-untitled-ontology-14:Ch.GuiraudSauternes rdf:type owl:NamedIndividual ,
-                                                  untitled-ontology-14:Sauternes ;
-                                         untitled-ontology-14:erProdusertI geopolitical:Frankrike ;
-                                         untitled-ontology-14:harFriskhet untitled-ontology-14:mediumFrisk ;
-                                         untitled-ontology-14:harFylde untitled-ontology-14:myeFylde ;
-                                         untitled-ontology-14:harSødme untitled-ontology-14:Søt ;
-                                         untitled-ontology-14:lagetMedDrue untitled-ontology-14:SauvignonBlancDrue ,
-                                                                           untitled-ontology-14:SemillonDrue ;
-                                         untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ,
-                                                                              untitled-ontology-14:Dessert ,
-                                                                              untitled-ontology-14:Ost ;
-                                         untitled-ontology-14:alkoholProsent 13.5 ;
-                                         untitled-ontology-14:årGang 2010 ;
-                                         schema:price 675.00 .
+:Ch.GuiraudSauternes rdf:type owl:NamedIndividual ,
+                              :Sauternes ;
+                     :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Frankrike> ;
+                     :harFriskhet :mediumFrisk ;
+                     :harFylde :myeFylde ;
+                     :harSødme :Søt ;
+                     :lagetMedDrue :SauvignonBlancDrue ,
+                                   :SemillonDrue ;
+                     :passerTilRåvare :Aperitiff ,
+                                      :Dessert ,
+                                      :Ost ;
+                     :alkoholProsent 13.5 ;
+                     :årGang 2010 ;
+                     <https://schema.org/price> 675.00 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ChardonnayDrue
-untitled-ontology-14:ChardonnayDrue rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:VinDrue .
+:ChardonnayDrue rdf:type owl:NamedIndividual ,
+                         :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#CheninBlancDrue
-untitled-ontology-14:CheninBlancDrue rdf:type owl:NamedIndividual ,
-                                              untitled-ontology-14:VinDrue .
+:CheninBlancDrue rdf:type owl:NamedIndividual ,
+                          :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Dessert
-untitled-ontology-14:Dessert rdf:type owl:NamedIndividual ,
-                                      untitled-ontology-14:Rett .
+:Dessert rdf:type owl:NamedIndividual ,
+                  :Rett .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#DonJulioAnejo
-untitled-ontology-14:DonJulioAnejo rdf:type owl:NamedIndividual ,
-                                            untitled-ontology-14:BrenneVin ;
-                                   untitled-ontology-14:erProdusertI geopolitical:Mexico ;
-                                   untitled-ontology-14:harFarge <http://dbpedia.org/resource/Amber_(color)> ;
-                                   untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ,
-                                                                        untitled-ontology-14:Dessert ;
-                                   untitled-ontology-14:alkoholProsent 38 .
+:DonJulioAnejo rdf:type owl:NamedIndividual ,
+                        :BrenneVin ;
+               :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Mexico> ;
+               :harFarge <http://dbpedia.org/resource/Amber_(color)> ;
+               :passerTilRåvare :Aperitiff ,
+                                :Dessert ;
+               :alkoholProsent 38 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#EfesPilsner
-untitled-ontology-14:EfesPilsner rdf:type owl:NamedIndividual ,
-                                          untitled-ontology-14:PilsnerØl ;
-                                 untitled-ontology-14:erProdusertI geopolitical:Tyskland ;
-                                 untitled-ontology-14:harFriskhet untitled-ontology-14:mediumFrisk ;
-                                 untitled-ontology-14:harFylde untitled-ontology-14:middelsLettFylde ;
-                                 untitled-ontology-14:lagetMed untitled-ontology-14:Humle ;
-                                 untitled-ontology-14:lagetMedMalt untitled-ontology-14:ByggMalt ;
-                                 untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ,
-                                                                      untitled-ontology-14:Fisk ,
-                                                                      untitled-ontology-14:Tamfugl ;
-                                 untitled-ontology-14:alkoholProsent 5 ;
-                                 schema:price 32.60 .
+:EfesPilsner rdf:type owl:NamedIndividual ,
+                      :PilsnerØl ;
+             :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Tyskland> ;
+             :harFriskhet :mediumFrisk ;
+             :harFylde :middelsLettFylde ;
+             :lagetMed :Humle ;
+             :lagetMedMalt :ByggMalt ;
+             :passerTilRåvare :Aperitiff ,
+                              :Fisk ,
+                              :Tamfugl ;
+             :alkoholProsent 5 ;
+             <https://schema.org/price> 32.60 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Fisk
-untitled-ontology-14:Fisk rdf:type owl:NamedIndividual ,
-                                   untitled-ontology-14:SjøMat .
+:Fisk rdf:type owl:NamedIndividual ,
+               :SjøMat .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GamayDrue
-untitled-ontology-14:GamayDrue rdf:type owl:NamedIndividual ,
-                                        untitled-ontology-14:VinDrue .
+:GamayDrue rdf:type owl:NamedIndividual ,
+                    :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#GildeSkreiAquavit
-untitled-ontology-14:GildeSkreiAquavit rdf:type owl:NamedIndividual ,
-                                                untitled-ontology-14:BrenneVin ;
-                                       untitled-ontology-14:erProdusertI geopolitical:Norge ;
-                                       untitled-ontology-14:harFarge <http://dbpedia.org/resource/Champagne_(color)> ;
-                                       untitled-ontology-14:passerTilRåvare untitled-ontology-14:Fisk ;
-                                       untitled-ontology-14:alkoholProsent 40 .
+:GildeSkreiAquavit rdf:type owl:NamedIndividual ,
+                            :BrenneVin ;
+                   :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Norge> ;
+                   :harFarge <http://dbpedia.org/resource/Champagne_(color)> ;
+                   :passerTilRåvare :Fisk ;
+                   :alkoholProsent 40 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Gjær
-untitled-ontology-14:Gjær rdf:type owl:NamedIndividual ,
-                                   untitled-ontology-14:HevingsMiddel .
+:Gjær rdf:type owl:NamedIndividual ,
+               :HevingsMiddel .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Grønnsak
-untitled-ontology-14:Grønnsak rdf:type owl:NamedIndividual ,
-                                       untitled-ontology-14:Avling .
+:Grønnsak rdf:type owl:NamedIndividual ,
+                   :Avling .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HaandbryggerietBelgiskPaleAle
-untitled-ontology-14:HaandbryggerietBelgiskPaleAle rdf:type owl:NamedIndividual ,
-                                                            untitled-ontology-14:PaleAleØl ;
-                                                   untitled-ontology-14:erProdusertI geopolitical:Norge ;
-                                                   untitled-ontology-14:harFarge <http://dbpedia.org/resource/Amber_(color)> ;
-                                                   untitled-ontology-14:harFriskhet untitled-ontology-14:middelsMyeFriskhet ;
-                                                   untitled-ontology-14:harFylde untitled-ontology-14:middelsMyeFylde ;
-                                                   untitled-ontology-14:harSødme untitled-ontology-14:Tørr ;
-                                                   untitled-ontology-14:lagetMed untitled-ontology-14:Humle ;
-                                                   untitled-ontology-14:lagetMedMalt untitled-ontology-14:ByggMalt ;
-                                                   untitled-ontology-14:passerTilRåvare untitled-ontology-14:Fisk ,
-                                                                                        untitled-ontology-14:Svin ,
-                                                                                        untitled-ontology-14:Tamfugl ;
-                                                   untitled-ontology-14:alkoholProsent 6.5 ;
-                                                   untitled-ontology-14:beskrivelseLukt "Sval og fruktig aroma preget av gyllent malt, humle, sitrus og litt tørket frukt." ;
-                                                   untitled-ontology-14:beskrivelseSmak "Fruktig, frisk og fint balansert. Lang, humlebitter ettersmak." ;
-                                                   schema:price 72.90 .
+:HaandbryggerietBelgiskPaleAle rdf:type owl:NamedIndividual ,
+                                        :PaleAleØl ;
+                               :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Norge> ;
+                               :harFarge <http://dbpedia.org/resource/Amber_(color)> ;
+                               :harFriskhet :middelsMyeFriskhet ;
+                               :harFylde :middelsMyeFylde ;
+                               :harSødme :Tørr ;
+                               :lagetMed :Humle ;
+                               :lagetMedMalt :ByggMalt ;
+                               :passerTilRåvare :Fisk ,
+                                                :Svin ,
+                                                :Tamfugl ;
+                               :alkoholProsent 6.5 ;
+                               :beskrivelseLukt "Sval og fruktig aroma preget av gyllent malt, humle, sitrus og litt tørket frukt." ;
+                               :beskrivelseSmak "Fruktig, frisk og fint balansert. Lang, humlebitter ettersmak." ;
+                               <https://schema.org/price> 72.90 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Humle
-untitled-ontology-14:Humle rdf:type owl:NamedIndividual ,
-                                    untitled-ontology-14:Plante .
+:Humle rdf:type owl:NamedIndividual ,
+                :Plante .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#HveteMalt
-untitled-ontology-14:HveteMalt rdf:type owl:NamedIndividual ,
-                                        untitled-ontology-14:Malt .
+:HveteMalt rdf:type owl:NamedIndividual ,
+                    :Malt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#InglenookCabernetSauvignon
-untitled-ontology-14:InglenookCabernetSauvignon rdf:type owl:NamedIndividual ,
-                                                         untitled-ontology-14:CabernetSauvignon ;
-                                                untitled-ontology-14:erProdusertI geopolitical:USA ;
-                                                untitled-ontology-14:harFriskhet untitled-ontology-14:middelsMyeFriskhet ;
-                                                untitled-ontology-14:harFylde untitled-ontology-14:myeFylde ;
-                                                untitled-ontology-14:harGarveStoff untitled-ontology-14:mediumGarveStoff ;
-                                                untitled-ontology-14:lagetMedDrue untitled-ontology-14:CabernetSauvignonDrue ;
-                                                untitled-ontology-14:passerTilRåvare untitled-ontology-14:SmåVilt ,
-                                                                                     untitled-ontology-14:StorVilt ,
-                                                                                     untitled-ontology-14:Storfe ;
-                                                untitled-ontology-14:alkoholProsent 14.8 ;
-                                                untitled-ontology-14:årGang 2011 ;
-                                                schema:price 699.00 .
+:InglenookCabernetSauvignon rdf:type owl:NamedIndividual ,
+                                     :CabernetSauvignon ;
+                            :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#USA> ;
+                            :harFriskhet :middelsMyeFriskhet ;
+                            :harFylde :myeFylde ;
+                            :harGarveStoff :mediumGarveStoff ;
+                            :lagetMedDrue :CabernetSauvignonDrue ;
+                            :passerTilRåvare :SmåVilt ,
+                                             :StorVilt ,
+                                             :Storfe ;
+                            :alkoholProsent 14.8 ;
+                            :årGang 2011 ;
+                            <https://schema.org/price> 699.00 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Kaker
-untitled-ontology-14:Kaker rdf:type owl:NamedIndividual ,
-                                    untitled-ontology-14:Bakst .
+:Kaker rdf:type owl:NamedIndividual ,
+                :Bakst .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Lam
-untitled-ontology-14:Lam rdf:type owl:NamedIndividual ,
-                                  untitled-ontology-14:Kjøtt ;
-                         owl:sameAs untitled-ontology-14:Sau .
+:Lam rdf:type owl:NamedIndividual ,
+              :Kjøtt ;
+     owl:sameAs :Sau .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MalbecDrue
-untitled-ontology-14:MalbecDrue rdf:type owl:NamedIndividual ,
-                                         untitled-ontology-14:VinDrue .
+:MalbecDrue rdf:type owl:NamedIndividual ,
+                     :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Malt
-untitled-ontology-14:Malt rdf:type owl:NamedIndividual ,
-                                   untitled-ontology-14:Malt .
+:Malt rdf:type owl:NamedIndividual ,
+               :Malt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MeinklangBurgenlandRosé
-untitled-ontology-14:MeinklangBurgenlandRosé rdf:type owl:NamedIndividual ,
-                                                      untitled-ontology-14:RoseVin ;
-                                             untitled-ontology-14:erProdusertI geopolitical:Østerrike ;
-                                             untitled-ontology-14:harFarge <http://dbpedia.org/resource/Peach_(color)> ;
-                                             untitled-ontology-14:harFriskhet untitled-ontology-14:mediumFrisk ;
-                                             untitled-ontology-14:harFylde untitled-ontology-14:mediumFylde ;
-                                             untitled-ontology-14:harSødme untitled-ontology-14:Tørr ;
-                                             untitled-ontology-14:lagetMedDrue untitled-ontology-14:BlaufränkischDrue ,
-                                                                               untitled-ontology-14:St.LaurentDrue ,
-                                                                               untitled-ontology-14:ZweigeltDrue ;
-                                             untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ,
-                                                                                  untitled-ontology-14:Skalldyr ;
-                                             untitled-ontology-14:alkoholProsent 10.5 ;
-                                             untitled-ontology-14:årGang 2014 .
+:MeinklangBurgenlandRosé rdf:type owl:NamedIndividual ,
+                                  :RoseVin ;
+                         :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Østerrike> ;
+                         :harFarge <http://dbpedia.org/resource/Peach_(color)> ;
+                         :harFriskhet :mediumFrisk ;
+                         :harFylde :mediumFylde ;
+                         :harSødme :Tørr ;
+                         :lagetMedDrue :BlaufränkischDrue ,
+                                       :St.LaurentDrue ,
+                                       :ZweigeltDrue ;
+                         :passerTilRåvare :Aperitiff ,
+                                          :Skalldyr ;
+                         :alkoholProsent 10.5 ;
+                         :årGang 2014 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#MerlotDrue
-untitled-ontology-14:MerlotDrue rdf:type owl:NamedIndividual ,
-                                         untitled-ontology-14:VinDrue .
+:MerlotDrue rdf:type owl:NamedIndividual ,
+                     :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Ost
-untitled-ontology-14:Ost rdf:type owl:NamedIndividual ,
-                                  untitled-ontology-14:MelkeProdukt .
+:Ost rdf:type owl:NamedIndividual ,
+              :MelkeProdukt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PaleMalt
-untitled-ontology-14:PaleMalt rdf:type owl:NamedIndividual ,
-                                       untitled-ontology-14:Malt .
+:PaleMalt rdf:type owl:NamedIndividual ,
+                   :Malt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PetiteSyrahDrue
-untitled-ontology-14:PetiteSyrahDrue rdf:type owl:NamedIndividual ,
-                                              untitled-ontology-14:VinDrue .
+:PetiteSyrahDrue rdf:type owl:NamedIndividual ,
+                          :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PetiteVerdotDrue
-untitled-ontology-14:PetiteVerdotDrue rdf:type owl:NamedIndividual ,
-                                               untitled-ontology-14:VinDrue .
+:PetiteVerdotDrue rdf:type owl:NamedIndividual ,
+                           :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PilsnerMalt
-untitled-ontology-14:PilsnerMalt rdf:type owl:NamedIndividual ,
-                                          untitled-ontology-14:Malt .
+:PilsnerMalt rdf:type owl:NamedIndividual ,
+                      :Malt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PinotBlancDrue
-untitled-ontology-14:PinotBlancDrue rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:VinDrue .
+:PinotBlancDrue rdf:type owl:NamedIndividual ,
+                         :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#PinotNoirDrue
-untitled-ontology-14:PinotNoirDrue rdf:type owl:NamedIndividual ,
-                                            untitled-ontology-14:VinDrue .
+:PinotNoirDrue rdf:type owl:NamedIndividual ,
+                        :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#QuerciabellaChiantiClassico
-untitled-ontology-14:QuerciabellaChiantiClassico rdf:type owl:NamedIndividual ,
-                                                          untitled-ontology-14:Chianti ;
-                                                 untitled-ontology-14:erProdusertI geopolitical:Italia ;
-                                                 untitled-ontology-14:harFriskhet untitled-ontology-14:mediumFrisk ;
-                                                 untitled-ontology-14:harFylde untitled-ontology-14:myeFylde ;
-                                                 untitled-ontology-14:harGarveStoff untitled-ontology-14:mediumGarveStoff ;
-                                                 untitled-ontology-14:lagetMedDrue untitled-ontology-14:SangioveseDrue ;
-                                                 untitled-ontology-14:passerTilRåvare untitled-ontology-14:Storfe ;
-                                                 untitled-ontology-14:alkoholProsent 13.5 ;
-                                                 untitled-ontology-14:årGang 2008 ;
-                                                 schema:price 2212.40 .
+:QuerciabellaChiantiClassico rdf:type owl:NamedIndividual ,
+                                      :Chianti ;
+                             :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Italia> ;
+                             :harFriskhet :mediumFrisk ;
+                             :harFylde :myeFylde ;
+                             :harGarveStoff :mediumGarveStoff ;
+                             :lagetMedDrue :SangioveseDrue ;
+                             :passerTilRåvare :Storfe ;
+                             :alkoholProsent 13.5 ;
+                             :årGang 2008 ;
+                             <https://schema.org/price> 2212.40 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#QuintadeLaRosaVintagePort
-untitled-ontology-14:QuintadeLaRosaVintagePort rdf:type owl:NamedIndividual ,
-                                                        untitled-ontology-14:SterkVin ;
-                                               untitled-ontology-14:harFarge <http://dbpedia.org/resource/Burgundy_(color)> ;
-                                               untitled-ontology-14:harFriskhet untitled-ontology-14:mediumFrisk ;
-                                               untitled-ontology-14:harFylde untitled-ontology-14:myeFylde ;
-                                               untitled-ontology-14:harSødme untitled-ontology-14:halvtørr ;
-                                               untitled-ontology-14:lagetMedDrue untitled-ontology-14:TintaRorizDrue ,
-                                                                                 untitled-ontology-14:TourigaFrancaDrue ,
-                                                                                 untitled-ontology-14:TourigaNationalDrue ;
-                                               untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ,
-                                                                                    untitled-ontology-14:Dessert ,
-                                                                                    untitled-ontology-14:Ost ;
-                                               untitled-ontology-14:alkoholProsent 20 ;
-                                               untitled-ontology-14:årGang 2011 .
+:QuintadeLaRosaVintagePort rdf:type owl:NamedIndividual ,
+                                    :SterkVin ;
+                           :harFarge <http://dbpedia.org/resource/Burgundy_(color)> ;
+                           :harFriskhet :mediumFrisk ;
+                           :harFylde :myeFylde ;
+                           :harSødme :halvtørr ;
+                           :lagetMedDrue :TintaRorizDrue ,
+                                         :TourigaFrancaDrue ,
+                                         :TourigaNationalDrue ;
+                           :passerTilRåvare :Aperitiff ,
+                                            :Dessert ,
+                                            :Ost ;
+                           :alkoholProsent 20 ;
+                           :årGang 2011 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RieslingDrue
-untitled-ontology-14:RieslingDrue rdf:type owl:NamedIndividual ,
-                                           untitled-ontology-14:VinDrue .
+:RieslingDrue rdf:type owl:NamedIndividual ,
+                       :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RolandLavatureuxChablis
-untitled-ontology-14:RolandLavatureuxChablis rdf:type owl:NamedIndividual ,
-                                                      untitled-ontology-14:Chablis ;
-                                             untitled-ontology-14:erProdusertI geopolitical:Frankrike ;
-                                             untitled-ontology-14:harFarge <http://dbpedia.org/resource/Shades_of_yellow__Goldenrod__1> ;
-                                             untitled-ontology-14:harFriskhet untitled-ontology-14:middelsMyeFriskhet ;
-                                             untitled-ontology-14:harFylde untitled-ontology-14:middelsMyeFylde ;
-                                             untitled-ontology-14:harSødme untitled-ontology-14:Tørr ;
-                                             untitled-ontology-14:lagetMedDrue untitled-ontology-14:ChardonnayDrue ;
-                                             untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ,
-                                                                                  untitled-ontology-14:Fisk ,
-                                                                                  untitled-ontology-14:Skalldyr ;
-                                             untitled-ontology-14:alkoholProsent 12.5 ;
-                                             untitled-ontology-14:beskrivelseSmak ""^^xsd:string ;
-                                             untitled-ontology-14:årGang 2014 ;
-                                             schema:price 209.90 .
+:RolandLavatureuxChablis rdf:type owl:NamedIndividual ,
+                                  :Chablis ;
+                         :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Frankrike> ;
+                         :harFarge <http://dbpedia.org/resource/Shades_of_yellow__Goldenrod__1> ;
+                         :harFriskhet :middelsMyeFriskhet ;
+                         :harFylde :middelsMyeFylde ;
+                         :harSødme :Tørr ;
+                         :lagetMedDrue :ChardonnayDrue ;
+                         :passerTilRåvare :Aperitiff ,
+                                          :Fisk ,
+                                          :Skalldyr ;
+                         :alkoholProsent 12.5 ;
+                         :beskrivelseSmak ""^^xsd:string ;
+                         :årGang 2014 ;
+                         <https://schema.org/price> 209.90 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#RøykMalt
-untitled-ontology-14:RøykMalt rdf:type owl:NamedIndividual ,
-                                       untitled-ontology-14:Malt .
+:RøykMalt rdf:type owl:NamedIndividual ,
+                   :Malt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SangioveseDrue
-untitled-ontology-14:SangioveseDrue rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:VinDrue .
+:SangioveseDrue rdf:type owl:NamedIndividual ,
+                         :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Sau
-untitled-ontology-14:Sau rdf:type owl:NamedIndividual ,
-                                  untitled-ontology-14:Kjøtt .
+:Sau rdf:type owl:NamedIndividual ,
+              :Kjøtt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SauvignonBlancDrue
-untitled-ontology-14:SauvignonBlancDrue rdf:type owl:NamedIndividual ,
-                                                 untitled-ontology-14:VinDrue .
+:SauvignonBlancDrue rdf:type owl:NamedIndividual ,
+                             :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SemillonDrue
-untitled-ontology-14:SemillonDrue rdf:type owl:NamedIndividual ,
-                                           untitled-ontology-14:VinDrue .
+:SemillonDrue rdf:type owl:NamedIndividual ,
+                       :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Skalldyr
-untitled-ontology-14:Skalldyr rdf:type owl:NamedIndividual ,
-                                       untitled-ontology-14:SjøMat .
+:Skalldyr rdf:type owl:NamedIndividual ,
+                   :SjøMat .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SmåVilt
-untitled-ontology-14:SmåVilt rdf:type owl:NamedIndividual ,
-                                      untitled-ontology-14:Vilt .
+:SmåVilt rdf:type owl:NamedIndividual ,
+                  :Vilt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#St.LaurentDrue
-untitled-ontology-14:St.LaurentDrue rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:VinDrue .
+:St.LaurentDrue rdf:type owl:NamedIndividual ,
+                         :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#StorVilt
-untitled-ontology-14:StorVilt rdf:type owl:NamedIndividual ,
-                                       untitled-ontology-14:Vilt .
+:StorVilt rdf:type owl:NamedIndividual ,
+                   :Vilt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Storfe
-untitled-ontology-14:Storfe rdf:type owl:NamedIndividual ,
-                                     untitled-ontology-14:Kjøtt .
+:Storfe rdf:type owl:NamedIndividual ,
+                 :Kjøtt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SvartMalt
-untitled-ontology-14:SvartMalt rdf:type owl:NamedIndividual ,
-                                        untitled-ontology-14:Malt .
+:SvartMalt rdf:type owl:NamedIndividual ,
+                    :Malt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Svin
-untitled-ontology-14:Svin rdf:type owl:NamedIndividual ,
-                                   untitled-ontology-14:Kjøtt .
+:Svin rdf:type owl:NamedIndividual ,
+               :Kjøtt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Søt
-untitled-ontology-14:Søt rdf:type owl:NamedIndividual ,
-                                  untitled-ontology-14:Sødme .
+:Søt rdf:type owl:NamedIndividual ,
+              :Sødme .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#SøtFrukt
-untitled-ontology-14:SøtFrukt rdf:type owl:NamedIndividual ,
-                                       untitled-ontology-14:Frukt .
+:SøtFrukt rdf:type owl:NamedIndividual ,
+                   :Frukt .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tamfugl
-untitled-ontology-14:Tamfugl rdf:type owl:NamedIndividual ,
-                                      untitled-ontology-14:Fugl .
+:Tamfugl rdf:type owl:NamedIndividual ,
+                  :Fugl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#TintaRorizDrue
-untitled-ontology-14:TintaRorizDrue rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:VinDrue .
+:TintaRorizDrue rdf:type owl:NamedIndividual ,
+                         :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#TourigaFrancaDrue
-untitled-ontology-14:TourigaFrancaDrue rdf:type owl:NamedIndividual ,
-                                                untitled-ontology-14:VinDrue .
+:TourigaFrancaDrue rdf:type owl:NamedIndividual ,
+                            :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#TourigaNationalDrue
-untitled-ontology-14:TourigaNationalDrue rdf:type owl:NamedIndividual ,
-                                                  untitled-ontology-14:VinDrue .
+:TourigaNationalDrue rdf:type owl:NamedIndividual ,
+                              :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Tørr
-untitled-ontology-14:Tørr rdf:type owl:NamedIndividual ,
-                                   untitled-ontology-14:Sødme .
+:Tørr rdf:type owl:NamedIndividual ,
+               :Sødme .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Villfugl
-untitled-ontology-14:Villfugl rdf:type owl:NamedIndividual ,
-                                       untitled-ontology-14:Fugl .
+:Villfugl rdf:type owl:NamedIndividual ,
+                   :Fugl .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#WilliamFèvreChablis
-untitled-ontology-14:WilliamFèvreChablis rdf:type owl:NamedIndividual ,
-                                                  untitled-ontology-14:Chablis ;
-                                         untitled-ontology-14:erProdusertI geopolitical:Frankrike ;
-                                         untitled-ontology-14:harFarge <http://dbpedia.org/resource/Chartreuse_(color)> ;
-                                         untitled-ontology-14:harFriskhet untitled-ontology-14:middelsMyeFriskhet ;
-                                         untitled-ontology-14:harFylde untitled-ontology-14:mediumFylde ;
-                                         untitled-ontology-14:harSødme untitled-ontology-14:Tørr ;
-                                         untitled-ontology-14:lagetMedDrue untitled-ontology-14:ChardonnayDrue ;
-                                         untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ,
-                                                                              untitled-ontology-14:Fisk ,
-                                                                              untitled-ontology-14:Skalldyr ;
-                                         untitled-ontology-14:alkoholProsent 12.5 ;
-                                         untitled-ontology-14:årGang 2015 ;
-                                         schema:price 179.90 .
+:WilliamFèvreChablis rdf:type owl:NamedIndividual ,
+                              :Chablis ;
+                     :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Frankrike> ;
+                     :harFarge <http://dbpedia.org/resource/Chartreuse_(color)> ;
+                     :harFriskhet :middelsMyeFriskhet ;
+                     :harFylde :mediumFylde ;
+                     :harSødme :Tørr ;
+                     :lagetMedDrue :ChardonnayDrue ;
+                     :passerTilRåvare :Aperitiff ,
+                                      :Fisk ,
+                                      :Skalldyr ;
+                     :alkoholProsent 12.5 ;
+                     :årGang 2015 ;
+                     <https://schema.org/price> 179.90 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#WongravenChampagneBrut
-untitled-ontology-14:WongravenChampagneBrut rdf:type owl:NamedIndividual ,
-                                                     untitled-ontology-14:Champagne ;
-                                            untitled-ontology-14:erProdusertI geopolitical:Frankrike ;
-                                            untitled-ontology-14:harFriskhet untitled-ontology-14:veldigFrisk ;
-                                            untitled-ontology-14:harFylde untitled-ontology-14:mediumFylde ;
-                                            untitled-ontology-14:harSødme untitled-ontology-14:Tørr ;
-                                            untitled-ontology-14:lagetMedDrue untitled-ontology-14:ChardonnayDrue ,
-                                                                              untitled-ontology-14:PinotNoirDrue ;
-                                            untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ,
-                                                                                 untitled-ontology-14:Fisk ,
-                                                                                 untitled-ontology-14:Skalldyr ;
-                                            untitled-ontology-14:alkoholProsent 12.5 ;
-                                            untitled-ontology-14:beskrivelseLukt "Frisk og ren, sitrus og kjeks, floral, mineralsk innslag." ;
-                                            untitled-ontology-14:beskrivelseSmak "Frisk, tørr med ren frukt og florale elementer" ;
-                                            schema:price 339.90 .
+:WongravenChampagneBrut rdf:type owl:NamedIndividual ,
+                                 :Champagne ;
+                        :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Frankrike> ;
+                        :harFriskhet :veldigFrisk ;
+                        :harFylde :mediumFylde ;
+                        :harSødme :Tørr ;
+                        :lagetMedDrue :ChardonnayDrue ,
+                                      :PinotNoirDrue ;
+                        :passerTilRåvare :Aperitiff ,
+                                         :Fisk ,
+                                         :Skalldyr ;
+                        :alkoholProsent 12.5 ;
+                        :beskrivelseLukt "Frisk og ren, sitrus og kjeks, floral, mineralsk innslag." ;
+                        :beskrivelseSmak "Frisk, tørr med ren frukt og florale elementer" ;
+                        <https://schema.org/price> 339.90 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ZinfandelDrue
-untitled-ontology-14:ZinfandelDrue rdf:type owl:NamedIndividual ,
-                                            untitled-ontology-14:VinDrue .
+:ZinfandelDrue rdf:type owl:NamedIndividual ,
+                        :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#ZweigeltDrue
-untitled-ontology-14:ZweigeltDrue rdf:type owl:NamedIndividual ,
-                                           untitled-ontology-14:VinDrue .
+:ZweigeltDrue rdf:type owl:NamedIndividual ,
+                       :VinDrue .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#halvtørr
-untitled-ontology-14:halvtørr rdf:type owl:NamedIndividual ,
-                                       untitled-ontology-14:Sødme .
+:halvtørr rdf:type owl:NamedIndividual ,
+                   :Sødme .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#lettFylde
-untitled-ontology-14:lettFylde rdf:type owl:NamedIndividual ,
-                                        untitled-ontology-14:Fylde .
+:lettFylde rdf:type owl:NamedIndividual ,
+                    :Fylde .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#liteBittert
-untitled-ontology-14:liteBittert rdf:type owl:NamedIndividual ,
-                                          untitled-ontology-14:Bitterhet .
+:liteBittert rdf:type owl:NamedIndividual ,
+                      :Bitterhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#liteFrisk
-untitled-ontology-14:liteFrisk rdf:type owl:NamedIndividual ,
-                                        untitled-ontology-14:Friskhet .
+:liteFrisk rdf:type owl:NamedIndividual ,
+                    :Friskhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#liteGarveStoff
-untitled-ontology-14:liteGarveStoff rdf:type owl:NamedIndividual ,
-                                             untitled-ontology-14:GarveStoff .
+:liteGarveStoff rdf:type owl:NamedIndividual ,
+                         :GarveStoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumBittert
-untitled-ontology-14:mediumBittert rdf:type owl:NamedIndividual ,
-                                            untitled-ontology-14:Bitterhet .
+:mediumBittert rdf:type owl:NamedIndividual ,
+                        :Bitterhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFrisk
-untitled-ontology-14:mediumFrisk rdf:type owl:NamedIndividual ,
-                                          untitled-ontology-14:Friskhet .
+:mediumFrisk rdf:type owl:NamedIndividual ,
+                      :Friskhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumFylde
-untitled-ontology-14:mediumFylde rdf:type owl:NamedIndividual ,
-                                          untitled-ontology-14:Fylde .
+:mediumFylde rdf:type owl:NamedIndividual ,
+                      :Fylde .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#mediumGarveStoff
-untitled-ontology-14:mediumGarveStoff rdf:type owl:NamedIndividual ,
-                                               untitled-ontology-14:GarveStoff .
+:mediumGarveStoff rdf:type owl:NamedIndividual ,
+                           :GarveStoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsLettFriskhet
-untitled-ontology-14:middelsLettFriskhet rdf:type owl:NamedIndividual ,
-                                                  untitled-ontology-14:Friskhet .
+:middelsLettFriskhet rdf:type owl:NamedIndividual ,
+                              :Friskhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsLettFylde
-untitled-ontology-14:middelsLettFylde rdf:type owl:NamedIndividual ,
-                                               untitled-ontology-14:Fylde .
+:middelsLettFylde rdf:type owl:NamedIndividual ,
+                           :Fylde .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsLettGarveStoff
-untitled-ontology-14:middelsLettGarveStoff rdf:type owl:NamedIndividual ,
-                                                    untitled-ontology-14:GarveStoff .
+:middelsLettGarveStoff rdf:type owl:NamedIndividual ,
+                                :GarveStoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsLiteBittert
-untitled-ontology-14:middelsLiteBittert rdf:type owl:NamedIndividual ,
-                                                 untitled-ontology-14:Bitterhet .
+:middelsLiteBittert rdf:type owl:NamedIndividual ,
+                             :Bitterhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeBittert
-untitled-ontology-14:middelsMyeBittert rdf:type owl:NamedIndividual ,
-                                                untitled-ontology-14:Bitterhet .
+:middelsMyeBittert rdf:type owl:NamedIndividual ,
+                            :Bitterhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFriskhet
-untitled-ontology-14:middelsMyeFriskhet rdf:type owl:NamedIndividual ,
-                                                 untitled-ontology-14:Friskhet .
+:middelsMyeFriskhet rdf:type owl:NamedIndividual ,
+                             :Friskhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeFylde
-untitled-ontology-14:middelsMyeFylde rdf:type owl:NamedIndividual ,
-                                              untitled-ontology-14:Fylde .
+:middelsMyeFylde rdf:type owl:NamedIndividual ,
+                          :Fylde .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#middelsMyeGarveStoff
-untitled-ontology-14:middelsMyeGarveStoff rdf:type owl:NamedIndividual ,
-                                                   untitled-ontology-14:GarveStoff .
+:middelsMyeGarveStoff rdf:type owl:NamedIndividual ,
+                               :GarveStoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#myeFylde
-untitled-ontology-14:myeFylde rdf:type owl:NamedIndividual ,
-                                       untitled-ontology-14:Fylde .
+:myeFylde rdf:type owl:NamedIndividual ,
+                   :Fylde .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#myeGarveStoff
-untitled-ontology-14:myeGarveStoff rdf:type owl:NamedIndividual ,
-                                            untitled-ontology-14:GarveStoff .
+:myeGarveStoff rdf:type owl:NamedIndividual ,
+                        :GarveStoff .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#veldigBittert
-untitled-ontology-14:veldigBittert rdf:type owl:NamedIndividual ,
-                                            untitled-ontology-14:Bitterhet .
+:veldigBittert rdf:type owl:NamedIndividual ,
+                        :Bitterhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#veldigFrisk
-untitled-ontology-14:veldigFrisk rdf:type owl:NamedIndividual ,
-                                          untitled-ontology-14:Friskhet .
+:veldigFrisk rdf:type owl:NamedIndividual ,
+                      :Friskhet .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#veldigSøt
-untitled-ontology-14:veldigSøt rdf:type owl:NamedIndividual ,
-                                        untitled-ontology-14:Sødme .
+:veldigSøt rdf:type owl:NamedIndividual ,
+                    :Sødme .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#veldigTørr
-untitled-ontology-14:veldigTørr rdf:type owl:NamedIndividual ,
-                                         untitled-ontology-14:Sødme .
+:veldigTørr rdf:type owl:NamedIndividual ,
+                     :Sødme .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Ch._d'Yquem
-untitled-ontology-14:Ch._d'Yquem rdf:type owl:NamedIndividual ,
-                                          untitled-ontology-14:Yquem ;
-                                 untitled-ontology-14:erProdusertI geopolitical:Frankrike ;
-                                 untitled-ontology-14:harFarge <http://dbpedia.org/resource/Naples_yellow> ;
-                                 untitled-ontology-14:harFriskhet untitled-ontology-14:middelsMyeFriskhet ;
-                                 untitled-ontology-14:harFylde untitled-ontology-14:mediumFylde ;
-                                 untitled-ontology-14:harSødme untitled-ontology-14:Søt ;
-                                 untitled-ontology-14:lagetMedDrue untitled-ontology-14:SauvignonBlancDrue ,
-                                                                   untitled-ontology-14:SemillonDrue ;
-                                 untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ,
-                                                                      untitled-ontology-14:Dessert ,
-                                                                      untitled-ontology-14:Ost ;
-                                 untitled-ontology-14:alkoholProsent 13.5 ;
-                                 untitled-ontology-14:årGang 2008 ;
-                                 schema:price 3945.00 .
+:Ch._d'Yquem rdf:type owl:NamedIndividual ,
+                      :Yquem ;
+             :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#Frankrike> ;
+             :harFarge <http://dbpedia.org/resource/Naples_yellow> ;
+             :harFriskhet :middelsMyeFriskhet ;
+             :harFylde :mediumFylde ;
+             :harSødme :Søt ;
+             :lagetMedDrue :SauvignonBlancDrue ,
+                           :SemillonDrue ;
+             :passerTilRåvare :Aperitiff ,
+                              :Dessert ,
+                              :Ost ;
+             :alkoholProsent 13.5 ;
+             :årGang 2008 ;
+             <https://schema.org/price> 3945.00 .
 
 
 ###  http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#St.Peter'sSuffolkGold
-untitled-ontology-14:St.Peter'sSuffolkGold rdf:type owl:NamedIndividual ,
-                                                    untitled-ontology-14:PaleAleØl ;
-                                           untitled-ontology-14:erProdusertI geopolitical:StorBritannia ;
-                                           untitled-ontology-14:harFriskhet untitled-ontology-14:mediumFrisk ;
-                                           untitled-ontology-14:harFylde untitled-ontology-14:middelsMyeFylde ;
-                                           untitled-ontology-14:harSødme untitled-ontology-14:Tørr ;
-                                           untitled-ontology-14:lagetMed untitled-ontology-14:Humle ;
-                                           untitled-ontology-14:lagetMedMalt untitled-ontology-14:Malt ;
-                                           untitled-ontology-14:passerTilRåvare untitled-ontology-14:Aperitiff ;
-                                           untitled-ontology-14:alkoholProsent 4.9 ;
-                                           untitled-ontology-14:beskrivelseLukt "Aromatisk. Humle og sitrus." ,
-                                                                                "Fyldig og rund med begagelig bitterhet." .
+:St.Peter'sSuffolkGold rdf:type owl:NamedIndividual ,
+                                :PaleAleØl ;
+                       :erProdusertI <http://aims.fao.org/aos/geopolitical.owl#StorBritannia> ;
+                       :harFriskhet :mediumFrisk ;
+                       :harFylde :middelsMyeFylde ;
+                       :harSødme :Tørr ;
+                       :lagetMed :Humle ;
+                       :lagetMedMalt :Malt ;
+                       :passerTilRåvare :Aperitiff ;
+                       :alkoholProsent 4.9 ;
+                       :beskrivelseLukt "Aromatisk. Humle og sitrus." ,
+                                        "Fyldig og rund med begagelig bitterhet." .
 
 
 #################################################################
 #    Annotations
 #################################################################
 
-untitled-ontology-14:Malt rdfs:comment "Generell beskrivelse" .
+:Malt rdfs:comment "Generell beskrivelse" .
 
 
 #################################################################
@@ -1361,102 +1357,102 @@ untitled-ontology-14:Malt rdfs:comment "Generell beskrivelse" .
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( untitled-ontology-14:AleØl
-                untitled-ontology-14:FatØl
-                untitled-ontology-14:LagerØl
+  owl:members ( :AleØl
+                :FatØl
+                :LagerØl
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( untitled-ontology-14:Alkohol
-                untitled-ontology-14:Avling
-                untitled-ontology-14:Bakst
-                untitled-ontology-14:Frukt
-                untitled-ontology-14:Kjøtt
-                untitled-ontology-14:MelkeProdukt
-                untitled-ontology-14:Rett
-                untitled-ontology-14:SjøMat
+  owl:members ( :Alkohol
+                :Avling
+                :Bakst
+                :Frukt
+                :Kjøtt
+                :MelkeProdukt
+                :Rett
+                :SjøMat
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( untitled-ontology-14:AromatisertVin
-                untitled-ontology-14:BrenneVin
-                untitled-ontology-14:FruktVin
-                untitled-ontology-14:HvitVin
-                untitled-ontology-14:MusserendeVin
-                untitled-ontology-14:PerlendeVin
-                untitled-ontology-14:RoseVin
-                untitled-ontology-14:RødVin
-                untitled-ontology-14:SterkVin
+  owl:members ( :AromatisertVin
+                :BrenneVin
+                :FruktVin
+                :HvitVin
+                :MusserendeVin
+                :PerlendeVin
+                :RoseVin
+                :RødVin
+                :SterkVin
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( untitled-ontology-14:Beaujolais
-                untitled-ontology-14:Cabernet
-                untitled-ontology-14:CabernetSauvignon
-                untitled-ontology-14:Chianti
-                untitled-ontology-14:Claret
-                untitled-ontology-14:Medoc
-                untitled-ontology-14:Merlot
-                untitled-ontology-14:PinotNoit
-                untitled-ontology-14:Rioja
-                untitled-ontology-14:RødBordeaux
-                untitled-ontology-14:Zinfandel
+  owl:members ( :Beaujolais
+                :Cabernet
+                :CabernetSauvignon
+                :Chianti
+                :Claret
+                :Medoc
+                :Merlot
+                :PinotNoit
+                :Rioja
+                :RødBordeaux
+                :Zinfandel
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( untitled-ontology-14:Bitterhet
-                untitled-ontology-14:Farge
-                untitled-ontology-14:Friskhet
-                untitled-ontology-14:Fylde
-                untitled-ontology-14:GarveStoff
-                untitled-ontology-14:Sødme
+  owl:members ( :Bitterhet
+                :Farge
+                :Friskhet
+                :Fylde
+                :GarveStoff
+                :Sødme
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( untitled-ontology-14:Bitterhet
-                untitled-ontology-14:Farge
-                untitled-ontology-14:Friskhet
-                untitled-ontology-14:Fylde
-                untitled-ontology-14:Sødme
+  owl:members ( :Bitterhet
+                :Farge
+                :Friskhet
+                :Fylde
+                :Sødme
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( untitled-ontology-14:HevingsMiddel
-                untitled-ontology-14:Korn
-                untitled-ontology-14:Plante
-                untitled-ontology-14:VinDrue
+  owl:members ( :HevingsMiddel
+                :Korn
+                :Plante
+                :VinDrue
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( untitled-ontology-14:HveteØl
-                untitled-ontology-14:PaleAleØl
-                untitled-ontology-14:PorterØl
-                untitled-ontology-14:ScotchAleØl
-                untitled-ontology-14:StoutØl
+  owl:members ( :HveteØl
+                :PaleAleØl
+                :PorterØl
+                :ScotchAleØl
+                :StoutØl
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( untitled-ontology-14:LettØl
-                untitled-ontology-14:LysLagerØl
-                untitled-ontology-14:MunichØl
-                untitled-ontology-14:MørkLagerØl
-                untitled-ontology-14:PilsnerØl
+  owl:members ( :LettØl
+                :LysLagerØl
+                :MunichØl
+                :MørkLagerØl
+                :PilsnerØl
               )
 ] .
 

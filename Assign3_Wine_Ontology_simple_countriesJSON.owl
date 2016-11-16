@@ -168,7 +168,7 @@
   "@id" : "http://aims.fao.org/aos/geopolitical.owl#Frankrike",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ateli/ontologies/2016/9/untitled-ontology-14#Land" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@value" : "http://dbpedia.org/page/France"
+    "@value" : "http://dbpedia.org/resource/France"
   } ]
 }, {
   "@id" : "http://aims.fao.org/aos/geopolitical.owl#Italia",
